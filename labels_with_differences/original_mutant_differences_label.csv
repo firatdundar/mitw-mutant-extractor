@@ -1,0 +1,2035 @@
+Subject,MID,OriginalCode,MutatedCode,EquiManualBin
+Chart-1f,393,subTitle,true,False
+Chart-1f,562,10,0,False
+Chart-1f,747,renderer.setBaseNegativeItemLabelPosition(position);,<NO-OP>,False
+Chart-1f,1423,hAlign == HorizontalAlignment.RIGHT,true,False
+Chart-1f,1547,"""Unrecognised title position.""","""""",False
+Chart-1f,1766,this.title != null,true,False
+Chart-1f,1772,i < getSubtitleCount(),i != getSubtitleCount(),True
+Chart-1f,2297,29,0,False
+Chart-1f,2587,this.bottom,0.0,False
+Chart-1f,2796,font == null,false,False
+Chart-1f,2857,h == LengthConstraintType.FIXED,false,False
+Chart-1f,3243,0,-1,False
+Chart-1f,5583,true,false,False
+Chart-1f,5685,removed && notify,removed != notify,False
+Chart-1f,5966,rangeAxis != null,rangeAxis == null,False
+Chart-1f,6001,g2.setRenderingHints(savedG2.getRenderingHints());,<NO-OP>,False
+Chart-1f,6079,r != null,false,False
+Chart-1f,6139,i >= 0,i < 0,False
+Chart-1f,6379,this.rowRenderingOrder == SortOrder.ASCENDING,false,False
+Chart-1f,6683,rangeIndex >= 0,true,False
+Chart-1f,7136,i < this.rangeAxes.size(),i != this.rangeAxes.size(),True
+Chart-1f,8672,0,1,False
+Chart-1f,8678,i < this.renderers.size(),i >= this.renderers.size(),False
+Chart-1f,8744,rendererCount - 1,rendererCount * 1,False
+Chart-1f,8893,i < this.renderers.size(),i != this.renderers.size(),True
+Chart-1f,9218,(ValueTick)iterator.next(),null,False
+Chart-1f,9832,g2.draw(line);,<NO-OP>,False
+Chart-1f,9837,orientation == PlotOrientation.HORIZONTAL,true,False
+Chart-1f,10332,return true;,<NO-OP>,True
+Chart-1f,10893,i < itemCount,i <= itemCount,False
+Chart-1f,11616,anchorX + offsets[0],anchorX / offsets[0],False
+Chart-1f,11677,anchorY + offsets[1],anchorY - offsets[1],False
+Chart-1f,12411,0,-1,False
+Chart-1f,12413,i < subplotCount,i <= subplotCount,False
+Chart-1f,12575,return true;,<NO-OP>,True
+Chart-1f,12805,2.0,-2.0,False
+Chart-1f,13100,this.urlText,null,False
+Chart-1f,13127,paint == null,false,False
+Chart-1f,13437,"result = HashUtilities.hashCode(result, this.objects[size / 2]);",<NO-OP>,False
+Chart-1f,13455,i < count,i != count,True
+Chart-1f,14053,result,0.0,False
+Chart-1f,14118,2.0,0.0,False
+Chart-1f,14246,ww / 2.0,ww * 2.0,False
+Chart-1f,14464,"state = drawCategoryLabels(g2, plotArea, dataArea, edge, state, plotState);",<NO-OP>,False
+Chart-1f,14525,state.getCursor() - this.categoryLabelPositionOffset,state.getCursor() % this.categoryLabelPositionOffset,False
+Chart-1f,14636,dataArea.getHeight() <= 0.0 || dataArea.getWidth() < 0.0,dataArea.getHeight() <= 0.0,False
+Chart-1f,14879,that.categoryMargin != this.categoryMargin,that.categoryMargin > this.categoryMargin,False
+Chart-1f,15115,stroke == null,false,False
+Chart-1f,15423,2.0F,-2.0F,False
+Chart-1f,15842,2,-2,False
+Chart-1f,16232,cursor - il,cursor * il,False
+Chart-1f,16276,dimension > 0.0,dimension >= 0.0,False
+Chart-1f,16279,"space.ensureAtLeast(dimension, edge);",<NO-OP>,False
+Chart-1f,16295,0.0,1.0,True
+Chart-1f,17224,(transX - xx) * (transX - xx) + (transY - yy) * (transY - yy),(transX - xx) * (transX - xx) - (transY - yy) * (transY - yy),False
+Chart-1f,17243,orientation == PlotOrientation.HORIZONTAL,orientation != PlotOrientation.HORIZONTAL,False
+Chart-1f,17799,return LengthConstraintType.FIXED;,<NO-OP>,False
+Chart-1f,18037,37 * result + this.positionForAxisAtLeft.hashCode(),37 * result * this.positionForAxisAtLeft.hashCode(),False
+Chart-1f,18132,this.labelAnchor,null,False
+Chart-1f,18136,this.widthRatio,0.0F,False
+Chart-1f,18193,result = 37 * result + this.categoryAnchor.hashCode();,<NO-OP>,False
+Chart-1f,18359,this.visibleSeries == null,this.visibleSeries != null,False
+Chart-1f,18378,this.visibleSeries[vRow] == rowIndex,this.visibleSeries[vRow] >= rowIndex,False
+Chart-1f,18384,this.visibleSeries == null,this.visibleSeries != null,False
+Chart-1f,18696,result = TextAnchor.TOP_RIGHT;,<NO-OP>,False
+Chart-1f,19223,size / 2,size % 2,False
+Chart-1f,19531,this.chart.removeChangeListener(this);,<NO-OP>,False
+Chart-1f,19604,this.rangeZoomable = flag && (z.isRangeZoomable());,<NO-OP>,False
+Chart-1f,20408,this.zoomPoint != null,false,False
+Chart-1f,20951,hZoom && (e.getX() < this.zoomPoint.getX()),false,False
+Chart-1f,21032,panel.getFillZoomRectangle(),false,False
+Chart-1f,21178,true,false,False
+Chart-1f,21309,"""Null \'file\' argument.""","""""",False
+Chart-1f,22233,applyToValueAxis(axis);,<NO-OP>,False
+Chart-1f,22732,fireChangeEvent();,<NO-OP>,False
+Chart-1f,22843,key == null,true,False
+Chart-1f,23249,plotArea.getMaxX() - hGap,plotArea.getMaxX() / hGap,True
+Chart-1f,23506,this.dataset.getKeys().size() > 0,this.dataset.getKeys().size() <= 0,False
+Chart-1f,23551,value > 0.0,value <= 0.0,False
+Chart-1f,23722,getIgnoreZeroValues(),true,False
+Chart-1f,24022,lGap / 2.0 + lGap / 2.0 * -Math.cos(theta),lGap / 2.0 % (lGap / 2.0 * -Math.cos(theta)),False
+Chart-1f,24451,"c.setCurve(targetX, targetY, anchorX, anchorY, elbowX, elbowY, linkX, linkY);",<NO-OP>,False
+Chart-1f,24618,value / total,value - total,False
+Chart-1f,24795,false,true,False
+Chart-1f,25563,axis == null,false,False
+Chart-1f,25938,this.rangeAxis != null,this.rangeAxis == null,False
+Chart-1f,26711,(percent < 0.0) || (percent > MAX_INTERIOR_GAP),(percent > MAX_INTERIOR_GAP),False
+Chart-1f,26768,fireChangeEvent();,<NO-OP>,False
+Chart-1f,26788,"""Null \'paint\' argument.""","""""",False
+Chart-1f,27013,area.getHeight() * this.headPercent,area.getHeight() + this.headPercent,False
+Chart-1f,27068,2,-2,False
+Chart-1f,27637,angle < 1 || angle > 360,angle < 1 && angle > 360,False
+Chart-1f,28062,radius * Math.sin(Math.PI * (valueAngle / 180)),radius + Math.sin(Math.PI * (valueAngle / 180)),False
+Chart-1f,28336,baseAngle - ((value / this.range.getLength()) * this.meterAngle),baseAngle / ((value / this.range.getLength()) * this.meterAngle),False
+Chart-1f,28778,50.0,-50.0,False
+Chart-1f,29370,this.dataset.getValue() != null,true,False
+Chart-1f,30138,tick.getValue() - 0.5,tick.getValue() % 0.5,False
+Chart-1f,30175,this.symbols.size() - 1,this.symbols.size() / 1,False
+Chart-1f,30236,upper <= 0.0,true,False
+Chart-1f,30503,isVerticalTickLabels(),true,False
+Chart-1f,30543,0.0,-1.0,False
+Chart-1f,30717,fixedAutoRange > 0.0,fixedAutoRange < 0.0,False
+Chart-1f,31390,5,-5,False
+Chart-1f,32014,isVerticalTickLabels(),true,False
+Chart-1f,32158,i < count,i == count,False
+Chart-1f,32180,isVerticalTickLabels(),true,False
+Chart-1f,32278,minorTickSpaces <= 0,minorTickSpaces == 0,False
+Chart-1f,32338,edge == RectangleEdge.LEFT,false,False
+Chart-1f,32365,rotationAnchor = TextAnchor.CENTER_LEFT;,<NO-OP>,False
+Chart-1f,32401,(nextTickValue - currentTickValue) * minorTick / minorTickSpaces,(nextTickValue - currentTickValue) * minorTick + minorTickSpaces,False
+Chart-1f,32870,(int)(ww / length) + 1,(int)(ww / length) % 1,False
+Chart-1f,33250,vap.getDataRange(this),null,False
+Chart-1f,33933,fireChangeEvent();,<NO-OP>,False
+Chart-1f,34073,anchor == ItemLabelAnchor.INSIDE6,false,False
+Chart-1f,34151,OPP * this.itemLabelAnchorOffset,OPP % this.itemLabelAnchorOffset,False
+Chart-1f,34303,2.0,0.0,False
+Chart-1f,34372,2.0 * ADJ,2.0 / ADJ,False
+Chart-1f,34390,2.0 * OPP * this.itemLabelAnchorOffset,2.0 * OPP / this.itemLabelAnchorOffset,False
+Chart-1f,34981,rows > 1,rows < 1,False
+Chart-1f,34985,rows > 1,false,False
+Chart-1f,35122,"barW0 = domainAxis.getCategoryMiddle(column, getColumnCount(), dataArea, plot.getDomainAxisEdge()) - state.getBarWidth() / 2.0;",<NO-OP>,False
+Chart-1f,35336,barL0 - barL0Adj,barL0 / barL0Adj,False
+Chart-1f,35460,bar.getX() - offset,bar.getX() * offset,False
+Chart-1f,35538,anchor == ItemLabelAnchor.INSIDE10,false,False
+Chart-1f,36243,v1 - v0,v1 / v0,False
+Chart-1f,36246,orientation == PlotOrientation.VERTICAL,false,False
+Chart-1f,36533,g2.setPaint(paint);,<NO-OP>,False
+Chart-1f,36788,this.base,0.0,False
+Chart-1f,36904,value0 <= value1,value0 < value1,True
+Chart-1f,37020,left + cut / 2,left * (cut / 2),False
+Chart-1f,37377,anchor == ItemLabelAnchor.CENTER || anchor == ItemLabelAnchor.INSIDE1 || anchor == ItemLabelAnchor.INSIDE2 || anchor == ItemLabelAnchor.INSIDE3 || anchor == ItemLabelAnchor.INSIDE4 || anchor == ItemLabelAnchor.INSIDE5,anchor == ItemLabelAnchor.CENTER || anchor == ItemLabelAnchor.INSIDE1 || anchor == ItemLabelAnchor.INSIDE2 || anchor == ItemLabelAnchor.INSIDE3 || anchor == ItemLabelAnchor.INSIDE4,False
+Chart-1f,37379,anchor == ItemLabelAnchor.CENTER || anchor == ItemLabelAnchor.INSIDE1 || anchor == ItemLabelAnchor.INSIDE2 || anchor == ItemLabelAnchor.INSIDE3 || anchor == ItemLabelAnchor.INSIDE4 || anchor == ItemLabelAnchor.INSIDE5,true,False
+Chart-1f,37699,(XYAnnotation)this.backgroundAnnotations.get(i),null,False
+Chart-1f,37848,item.setLabelPaint(labelPaint);,<NO-OP>,False
+Chart-1f,37907,x2 - x1,x2 + x1,False
+Chart-1f,37946,orientation == PlotOrientation.HORIZONTAL,true,False
+Chart-1f,38142,plot.getOrientation(),null,False
+Chart-1f,38928,return false;,<NO-OP>,False
+Chart-1f,39282,37,0,False
+Chart-1f,39373,2,0,False
+Chart-1f,39648,this.shadowYOffset != that.shadowYOffset,false,False
+Chart-1f,39687,0,1,False
+Chart-1f,39778,temp ^ (temp >>> 32),temp & (temp >>> 32),False
+Chart-1f,39821,0.8F,-0.8F,False
+Chart-1f,39938,obj == this,true,False
+Chart-1f,39950,false,true,False
+Chart-1f,40066,orientation == PlotOrientation.VERTICAL,false,False
+Chart-1f,40914,37 * result + this.textAnchor.hashCode(),37 * result / this.textAnchor.hashCode(),False
+Chart-1f,41343,j2DX - this.displayWidth / 2.0,j2DX + this.displayWidth / 2.0,False
+Chart-1f,41599,this.y != that.y,this.y < that.y,False
+Chart-1f,42001,Math.cos(this.angle) * (this.baseRadius + this.labelOffset),Math.cos(this.angle) + (this.baseRadius + this.labelOffset),False
+Chart-1f,42382,toolTip != null || url != null,toolTip != null && url != null,False
+Chart-1f,42689,this.stroke != null && this.outlinePaint != null,this.stroke != null,False
+Chart-1f,42855,1.0F,-1.0F,False
+Chart-1f,42960,37 * result + HashUtilities.hashCodeForPaint(this.outlinePaint),37 * result % HashUtilities.hashCodeForPaint(this.outlinePaint),False
+Chart-1f,43048,yRange.getLowerBound() + (this.y * yRange.getLength()),yRange.getLowerBound() / (this.y * yRange.getLength()),False
+Chart-1f,43271,edge == RectangleEdge.TOP,false,False
+Chart-1f,43589,Math.ceil(cycleBound / unit) * unit,Math.ceil(cycleBound / unit) % unit,False
+Chart-1f,43615,currentTickValue <= upperValue,currentTickValue > upperValue,False
+Chart-1f,43656,2.0,-2.0,False
+Chart-1f,43677,lastX == x,lastX > x,False
+Chart-1f,43722,anchor = TextAnchor.BOTTOM_CENTER;,<NO-OP>,False
+Chart-1f,44084,isInverted(),true,False
+Chart-1f,44213,jmax - java2DValue,jmax + java2DValue,False
+Chart-1f,44431,value - vp,value * vp,False
+Chart-1f,44924,0.0,1.0,False
+Chart-1f,45353,this.tickMarkPosition == DateTickMarkPosition.MIDDLE,this.tickMarkPosition != DateTickMarkPosition.MIDDLE,False
+Chart-1f,45528,"units.add(new DateTickUnit(DateTickUnitType.MINUTE, 30, DateTickUnitType.MINUTE, 5, f3));",<NO-OP>,False
+Chart-1f,45770,tickLabelWidth > unit2Width,tickLabelWidth < unit2Width,False
+Chart-1f,46440,24L * 60L * 60L,24L * 60L % 60L,False
+Chart-1f,46832,RectangleEdge.isLeftOrRight(edge),true,False
+Chart-1f,46894,0.0,1.0,False
+Chart-1f,46993,range < minRange,range <= minRange,True
+Chart-1f,47203,ticks,null,False
+Chart-1f,47308,"result += Math.max(w1, w2);",<NO-OP>,False
+Chart-1f,47445,37,0,False
+Chart-1f,47562,this.allowNegativesFlag,false,False
+Chart-1f,47599,lowerVal > 0.0,true,False
+Chart-1f,47714,10.0,0.0,False
+Chart-1f,47749,10,0,False
+Chart-1f,47946,!this.allowNegativesFlag && lower >= 0.0 && lower < SMALL_LOG_VALUE,false,False
+Chart-1f,48125,upper - lower,upper * lower,False
+Chart-1f,48278,(java2DValue - plotMin) / (plotMax - plotMin),(java2DValue - plotMin) + (plotMax - plotMin),False
+Chart-1f,48748,2,0,False
+Chart-1f,48862,currentTickValue >= lowerBoundVal - SMALL_LOG_VALUE,currentTickValue > lowerBoundVal - SMALL_LOG_VALUE,False
+Chart-1f,49027,getNumberFormatOverride(),null,False
+Chart-1f,49051,10,0,False
+Chart-1f,49217,rotationAnchor = TextAnchor.BOTTOM_CENTER;,<NO-OP>,False
+Chart-1f,49537,max - min,max % min,False
+Chart-1f,49592,(value - lower) % length,(value - lower) - length,False
+Chart-1f,50855,"this.workingCalendarNoDST.set(this.workingCalendar.get(Calendar.YEAR), this.workingCalendar.get(Calendar.MONTH), this.workingCalendar.get(Calendar.DATE), this.workingCalendar.get(Calendar.HOUR_OF_DAY), this.workingCalendar.get(Calendar.MINUTE), this.workingCalendar.get(Calendar.SECOND));",<NO-OP>,False
+Chart-1f,50925,this.segmentStart <= millis,this.segmentStart > millis,False
+Chart-1f,51297,"state = drawSubCategoryLabels(g2, plotArea, dataArea, edge, state, plotState);",<NO-OP>,False
+Chart-1f,51920,width - w[3],width + w[3],False
+Chart-1f,51930,2,0,False
+Chart-1f,52174,0,1,False
+Chart-1f,52243,2,0,False
+Chart-1f,52719,w == LengthConstraintType.RANGE,true,False
+Chart-1f,52721,h == LengthConstraintType.NONE,false,False
+Chart-1f,52754,0,-1,False
+Chart-1f,52979,2.0,-2.0,False
+Chart-1f,53095,y = y + size.height + this.verticalGap;,<NO-OP>,False
+Chart-1f,53359,c < this.columns,c <= this.columns,False
+Chart-1f,54252,6,-6,False
+Chart-1f,54279,"s2.add(new Month(3, 2001), 123.2);",<NO-OP>,False
+Chart-1f,54281,4,-4,False
+Chart-1f,54841,"this.selectPaintButton = new JButton(localizationResources.getString(""Select...""));",<NO-OP>,False
+Chart-1f,54852,this.titleFont,null,False
+Chart-1f,54928,0,1,False
+Chart-1f,55033,2,-2,False
+Chart-1f,55550,quality < 0.0F,quality == 0.0F,False
+Chart-1f,55653,stream.defaultWriteObject();,<NO-OP>,False
+Chart-1f,57004,this.labelYOffset != that.labelYOffset,this.labelYOffset <= that.labelYOffset,False
+Chart-1f,57209,this.dateFormatter != null,false,False
+Chart-1f,57427,5,0,False
+Chart-1f,57478,labelList.add(label);,<NO-OP>,False
+Chart-1f,57868,x - getSize(),x * getSize(),False
+Chart-1f,57948,0.5,-0.5,False
+Chart-1f,57980,new Point2D.Double(),null,False
+Chart-1f,58167,maxY - midY,maxY * midY,False
+Chart-1f,58175,maxY - (2 * (maxY - midY)),maxY * (2 * (maxY - midY)),False
+Chart-1f,58365,object == null,false,False
+Chart-1f,59361,this.xCrosshairs.equals(that.xCrosshairs),false,False
+Chart-1f,59536,pt2.distance(this.lastPoint) > 5,pt2.distance(this.lastPoint) <= 5,False
+Chart-1f,60259,info != null,false,False
+Chart-1f,60440,0.0,1.0,False
+Chart-1f,60701,super.setOrientation(orientation);,<NO-OP>,False
+Chart-1f,61062,subplot != null,subplot == null,False
+Chart-1f,61140,this.gap != that.gap,this.gap < that.gap,False
+Chart-1f,61312,series >= 0,series > 0,False
+Chart-1f,61656,midY - radius + 40,(midY - radius) / 40,False
+Chart-1f,61773,2 * outerRadius,2 + outerRadius,False
+Chart-1f,61893,midY + 5,midY * 5,False
+Chart-1f,62208,0,1,False
+Chart-1f,63161,explodeArea.getY() + v1 / 2.0,explodeArea.getY() % (v1 / 2.0),False
+Chart-1f,63183,state.setPieCenterX(pieArea.getCenterX());,<NO-OP>,False
+Chart-1f,63369,direction * (runningTotal + value) * 360,direction * (runningTotal + value) + 360,False
+Chart-1f,63550,g2.fill(upperArc);,<NO-OP>,False
+Chart-1f,63732,plotArea.getMaxX() - arc.getStartPoint().getX(),plotArea.getMaxX() / arc.getStartPoint().getX(),False
+Chart-1f,63749,0.0,1.0,False
+Chart-1f,64059,angle2 - angle1,angle2 * angle1,False
+Chart-1f,64142,false,true,False
+Chart-1f,65054,((Number)entry.getKey()).doubleValue() > maxValue,((Number)entry.getKey()).doubleValue() < maxValue,False
+Chart-1f,65057,((Number)entry.getKey()).doubleValue() > maxValue,((Number)entry.getKey()).doubleValue() >= maxValue,True
+Chart-1f,65194,layer == null,false,False
+Chart-1f,65221,pointer != null,true,False
+Chart-1f,65244,this.datasets.size() > index,false,False
+Chart-1f,65378,this.scales.size() > index,this.scales.size() <= index,False
+Chart-1f,65533,37 * result,37 % result,False
+Chart-1f,65750,angle - 90.0,angle / 90.0,False
+Chart-1f,65934,this.outerRadius + radiusMargin,this.outerRadius / radiusMargin,False
+Chart-1f,65963,2 * angleMargin,2 / angleMargin,False
+Chart-1f,66406,radius < 0.0,radius <= 0.0,False
+Chart-1f,66712,"RectangleAnchor.createRectangle(new Size2D(w, h), pt.getX(), pt.getY(), this.frameAnchor)",null,False
+Chart-1f,67541,valueToAngle(v) - this.startAngle,valueToAngle(v) * this.startAngle,False
+Chart-1f,67625,i + 1,i / 1,False
+Chart-1f,68178,43 * hash + this.alpha,43 * hash % this.alpha,False
+Chart-1f,68854,0,-1,True
+Chart-1f,69452,dataArea.getWidth() - getXOffset(),dataArea.getWidth() / getXOffset(),False
+Chart-1f,69478,y3 + (float)Math.abs(this.yOffset),y3 / (float)Math.abs(this.yOffset),False
+Chart-1f,69682,plot.getOrientation(),null,False
+Chart-1f,70558,xx + state.getBarWidth(),xx % state.getBarWidth(),False
+Chart-1f,70608,dataArea.getMaxY() + aRadius,dataArea.getMaxY() - aRadius,False
+Chart-1f,70782,2.0,0.0,False
+Chart-1f,70871,xx + side,xx / side,False
+Chart-1f,70881,m + side,m % side,False
+Chart-1f,71177,2.0,-2.0,False
+Chart-1f,72030,start * rectBreadth,start % rectBreadth,False
+Chart-1f,72171,"drawInterval(g2, state, dataArea, plot, domainAxis, rangeAxis, d, row, column, selected);",<NO-OP>,False
+Chart-1f,72287,java2dValue1 - java2dValue0,java2dValue1 / java2dValue0,False
+Chart-1f,72537,"renderer.getItemOutlineStroke(row, column, selected)",null,False
+Chart-1f,72634,x0 + (bar.getWidth() * b),x0 * (bar.getWidth() * b),False
+Chart-1f,72927,groupW / 2.0,groupW + 2.0,False
+Chart-1f,73009,value > 0.0,value == 0.0,False
+Chart-1f,73104,"generator != null && isItemLabelVisible(row, column, selected)","generator != null || isItemLabelVisible(row, column, selected)",False
+Chart-1f,73250,"domainAxis.getCategoryMiddle(column, getColumnCount(), dataArea, plot.getDomainAxisEdge()) - state.getBarWidth() / 2.0","domainAxis.getCategoryMiddle(column, getColumnCount(), dataArea, plot.getDomainAxisEdge()) + state.getBarWidth() / 2.0",False
+Chart-1f,73267,v != null && isSeriesVisible(i),v != null != isSeriesVisible(i),False
+Chart-1f,73674,1 - domainAxis.getLowerMargin(),1 % domainAxis.getLowerMargin(),False
+Chart-1f,73748,value <= lclip,value == lclip,False
+Chart-1f,73973,"generator != null && isItemLabelVisible(row, column, selected)",generator != null,False
+Chart-1f,74386,(rows * columns) > 0,true,False
+Chart-1f,74546,y = barL;,<NO-OP>,False
+Chart-1f,74852,dataArea.getWidth() - getXOffset(),dataArea.getWidth() / getXOffset(),False
+Chart-1f,74861,"axis.valueToJava2D(value, adjusted, plot.getRangeAxisEdge())",0.0,False
+Chart-1f,74981,dataArea.getY() + getYOffset(),dataArea.getY() * getYOffset(),False
+Chart-1f,75232,orient == PlotOrientation.VERTICAL,orient != PlotOrientation.VERTICAL,False
+Chart-1f,75421,-4,0,False
+Chart-1f,75637,labelPaint != null,false,False
+Chart-1f,75938,y1 + y2,y1 % y2,False
+Chart-1f,76041,v >= 0.0,v > 0.0,True
+Chart-1f,76059,stack1[0] + stack2[0],stack1[0] % stack2[0],False
+Chart-1f,76180,1,-1,False
+Chart-1f,76324,v / total,v - total,False
+Chart-1f,76541,1,-1,False
+Chart-1f,76736,5,0,False
+Chart-1f,76884,state.getEntityCollection(),null,False
+Chart-1f,77201,state.getVisibleSeriesCount() >= 0,state.getVisibleSeriesCount() == 0,False
+Chart-1f,77495,value < 0.0,value > 0.0,False
+Chart-1f,77605,lclip <= 0.0,lclip < 0.0,False
+Chart-1f,77988,5.0,-5.0,False
+Chart-1f,78076,orientation == PlotOrientation.HORIZONTAL,true,False
+Chart-1f,78103,pass == 0,pass < 0,False
+Chart-1f,78166,pass == 1,pass > 1,False
+Chart-1f,78514,categoryCount - 1,categoryCount / 1,False
+Chart-1f,78520,column == categoryCount - 1,false,False
+Chart-1f,78604,valDiff < 0.0,valDiff <= 0.0,False
+Chart-1f,78755,paint == null,false,False
+Chart-1f,79047,stickWidth / 2,stickWidth * 2,False
+Chart-1f,79369,seriesBarWidth * series,seriesBarWidth / series,False
+Chart-1f,79379,barX1 - barX0,barX1 % barX0,False
+Chart-1f,79584,0,1,False
+Chart-1f,79658,(x[0] != x[1]) && ((xcycleBound >= x[0]) && (xcycleBound <= x[1]) || (xcycleBound >= x[1]) && (xcycleBound <= x[0])),(x[0] != x[1]) || ((xcycleBound >= x[0]) && (xcycleBound <= x[1]) || (xcycleBound >= x[1]) && (xcycleBound <= x[0])),False
+Chart-1f,79948,(ycycleBound >= y[1]) && (ycycleBound <= y[2]),(ycycleBound >= y[1]),False
+Chart-1f,80010,0,1,False
+Chart-1f,80956,7.0,0.0,False
+Chart-1f,81090,0,-1,False
+Chart-1f,82678,g2.setPaint(seriesPaint);,<NO-OP>,False
+Chart-1f,82811,this.plotShapes = true;,<NO-OP>,False
+Chart-1f,82843,3.0F,0.0F,False
+Chart-1f,82943,"rangeAxis.valueToJava2D(y1, dataArea, plot.getRangeAxisEdge())",0.0,False
+Chart-1f,83109,2.0,-2.0,False
+Chart-1f,83231,getPlotArea() && item > 0 && item == (itemCount - 1),(getPlotArea() && item > 0) == (item == (itemCount - 1)),False
+Chart-1f,83252,isOutline(),false,False
+Chart-1f,83771,false,true,False
+Chart-1f,84189,(transX0 + transX1) / 2.0,(transX0 + transX1) - 2.0,False
+Chart-1f,84222,(transX1 + transX2) / 2.0,(transX1 + transX2) - 2.0,False
+Chart-1f,84541,pass == 0,pass < 0,False
+Chart-1f,84574,pass == 2,pass > 2,False
+Chart-1f,84661,0,1,False
+Chart-1f,85091,false,true,False
+Chart-1f,85333,-this.blockWidth / 2.0,-this.blockWidth - 2.0,False
+Chart-1f,85420,r.getLowerBound() + this.xOffset,r.getLowerBound() % this.xOffset,False
+Chart-1f,85511,0.0,-1.0,False
+Chart-1f,85925,dataAreaX / itemCount * 4.5,dataAreaX / itemCount / 4.5,False
+Chart-1f,85961,width / 2,width * 2,False
+Chart-1f,86977,(l_x1 < l_x3) && (l_x3 < l_x2),(l_x3 < l_x2),False
+Chart-1f,88129,h < 1,h <= 1,False
+Chart-1f,88202,plot == null,false,False
+Chart-1f,88438,xx - adj,xx / adj,False
+Chart-1f,88561,pass == 0 || pass == 1,pass == 0,False
+Chart-1f,88767,pass == 1,true,False
+Chart-1f,89432,"rangeAxis.valueToJava2D(y, dataArea, plot.getRangeAxisEdge())",0.0,False
+Chart-1f,89598,1,0,False
+Chart-1f,89716,value > max,value <= max,False
+Chart-1f,89745,stepPoint > 1.0,stepPoint >= 1.0,False
+Chart-1f,89848,transY0 == transY1,true,False
+Chart-1f,90437,text.charAt(current) == '\n',text.charAt(current) > '\n',False
+Chart-1f,90529,return end;,<NO-OP>,False
+Chart-1f,90764,anchor == TextAnchor.HALF_ASCENT_LEFT || anchor == TextAnchor.HALF_ASCENT_CENTER || anchor == TextAnchor.HALF_ASCENT_RIGHT,false,False
+Chart-1f,91008,x + textAdj[0] + rotateAdj[0],(x + textAdj[0]) / rotateAdj[0],False
+Chart-1f,91593,anchor == TextAnchor.BOTTOM_LEFT || anchor == TextAnchor.BOTTOM_CENTER || anchor == TextAnchor.BOTTOM_RIGHT,(anchor == TextAnchor.BOTTOM_LEFT || anchor == TextAnchor.BOTTOM_CENTER) && anchor == TextAnchor.BOTTOM_RIGHT,False
+Chart-1f,91619,"(text == null) || (text.equals(""""))","(text.equals(""""))",False
+Chart-1f,92081,this.shape != null,this.shape == null,False
+Chart-1f,92082,this.shape != null,false,False
+Chart-1f,92221,this.urlText = text;,<NO-OP>,False
+Chart-1f,92503,g2.setPaint(p);,<NO-OP>,False
+Chart-1f,93103,this.rowHeight[r] = d.height;,<NO-OP>,False
+Chart-1f,93148,this.colWidth[0] + this.labelGap + this.colWidth[1] + this.buttonGap + this.colWidth[2],this.colWidth[0] + this.labelGap + this.colWidth[1] + this.buttonGap - this.colWidth[2],False
+Chart-1f,93465,y + adjust,y % adjust,False
+Chart-1f,93610,item < urlCount,item >= urlCount,False
+Chart-1f,94986,32,-32,True
+Chart-1f,95944,s.height - f.height,s.height + f.height,False
+Chart-1f,96363,37 * result,37 / result,False
+Chart-1f,97283,"p0.lineTo(0.0F, s);",<NO-OP>,False
+Chart-1f,97333,x2 - x1,x2 % x1,False
+Chart-1f,97361,x1 + dx,x1 / dx,False
+Chart-1f,97770,(f1 & Rectangle2D.OUT_BOTTOM) == Rectangle2D.OUT_BOTTOM,false,False
+Chart-1f,98016,minY - y2,minY / y2,False
+Chart-1f,98186,fireSeriesChanged();,<NO-OP>,False
+Chart-1f,98342,obj == this,false,True
+Chart-1f,98347,return false;,<NO-OP>,False
+Chart-1f,98942,0),29 * result * (this.value != null ? this.value.hashCode() : 0),False
+Chart-1f,100379,0,1,False
+Chart-1f,101599,column + this.firstCategoryIndex,column - this.firstCategoryIndex,False
+Chart-1f,102611,dataset.getColumnCount(),0,False
+Chart-1f,102643,r < rowCount,r == rowCount,False
+Chart-1f,102985,column < columnCount,column >= columnCount,False
+Chart-1f,103266,Double.isNaN(lvalue),true,False
+Chart-1f,103377,includeInterval && dataset instanceof IntervalXYDataset,includeInterval != dataset instanceof IntervalXYDataset,False
+Chart-1f,103472,minimum == Double.POSITIVE_INFINITY,minimum != Double.POSITIVE_INFINITY,False
+Chart-1f,103506,item < itemCount,item > itemCount,False
+Chart-1f,103631,item < itemCount,item != itemCount,False
+Chart-1f,103737,value > 0.0,value >= 0.0,True
+Chart-1f,104938,this.minY,0.0,False
+Chart-1f,105407,dataset,null,False
+Chart-1f,105567,"insufficient columns returned from the database.""","""""",False
+Chart-1f,105596,"setValue(value, rowKey, columnKey);",<NO-OP>,False
+Chart-1f,105626,con == null,true,False
+Chart-1f,105893,test < this.minValue,test > this.minValue,False
+Chart-1f,106043,interQuartileRange * 1.5,interQuartileRange % 1.5,False
+Chart-1f,106114,value > maxOutlier && value <= upperFaroutThreshold,value > maxOutlier,False
+Chart-1f,106657,item != null,item == null,False
+Chart-1f,107043,count > 0,count != 0,True
+Chart-1f,107566,this.data.removeColumn(columnKey);,<NO-OP>,False
+Chart-1f,107584,-1,1,False
+Chart-1f,108799,eq < equations,eq >= equations,False
+Chart-1f,108965,1,0,False
+Chart-1f,108984,coe - 1,coe + 1,False
+Chart-1f,109060,j < temp.length,j <= temp.length,False
+Chart-1f,109093,equations - 1,equations / 1,False
+Chart-1f,110456,-1,1,False
+Chart-1f,110519,1,0,True
+Chart-1f,110541,(result < 1) || (result > 12),(result < 1),True
+Chart-1f,110859,7 + adjust,7 % adjust,False
+Chart-1f,111074,i < this.historyCount,i <= this.historyCount,False
+Chart-1f,111389,t != Long.MIN_VALUE,t >= Long.MIN_VALUE,False
+Chart-1f,111828,this.hour != that.hour,this.hour > that.hour,False
+Chart-1f,112135,(Second)o1,null,False
+Chart-1f,112150,this.firstMillisecond > s.firstMillisecond,false,False
+Chart-1f,112732,37 * result,37 % result,False
+Chart-1f,113769,29 * result,29 % result,False
+Chart-1f,113912,i < series.getItemCount(),true,False
+Chart-1f,114915,quarter > LAST_QUARTER,false,False
+Chart-1f,115448,1900,0,False
+Chart-1f,115747,s < end,s <= end,False
+Chart-1f,116285,this.data.size() > 0,this.data.size() != 0,True
+Chart-1f,116537,column == 1,column >= 1,False
+Chart-1f,116861,(week < FIRST_WEEK_IN_YEAR) && (week > LAST_WEEK_IN_YEAR),(week < FIRST_WEEK_IN_YEAR) || (week > LAST_WEEK_IN_YEAR),False
+Chart-1f,116915,calendar.get(Calendar.MONTH) == Calendar.DECEMBER,calendar.get(Calendar.MONTH) != Calendar.DECEMBER,False
+Chart-1f,117696,qName.equals(KEY_TAG),true,False
+Chart-1f,118094,this.date[item],null,False
+Chart-1f,118659,return false;,<NO-OP>,False
+Chart-1f,119241,series >= getSeriesCount(),series == getSeriesCount(),False
+Chart-1f,119268,series >= getSeriesCount(),series == getSeriesCount(),False
+Chart-1f,119745,getColumnsCount() == that.getColumnsCount(),getColumnsCount() <= that.getColumnsCount(),False
+Chart-1f,120003,37 * result + (int)(temp ^ (temp >>> 32)),37 * result - (int)(temp ^ (temp >>> 32)),False
+Chart-1f,120878,0,-1,False
+Chart-1f,121033,s < seriesCount,s >= seriesCount,False
+Chart-1f,121182,this.y != that.y,this.y > that.y,False
+Chart-1f,121260,series >= getSeriesCount(),series == getSeriesCount(),False
+Collections-28f,91,object != null && object.equals(current),object != null == object.equals(current),False
+Collections-28f,280,a.size() < b.size(),a.size() != b.size(),True
+Collections-28f,534,0,-1,False
+Collections-28f,585,total = IterableUtils.size((Iterable<?>)object);,<NO-OP>,False
+Collections-28f,670,"""The collection must not be null""","""""",False
+Collections-28f,683,b == null,false,False
+Collections-28f,701,a instanceof Collection<?> && b instanceof Collection<?>,b instanceof Collection<?>,False
+Collections-28f,916,predicate == null,false,False
+Collections-28f,1016,"""Equator must not be null.""","""""",False
+Collections-28f,1284,"""Collection must not be null""","""""",False
+Collections-28f,1297,iterator == null,false,False
+Collections-28f,1299,"""Iterator must not be null""","""""",False
+Collections-28f,1328,iterator == null,false,False
+Collections-28f,1475,"""transformer may not be null""","""""",False
+Collections-28f,1479,"""delimiter may not be null""","""""",False
+Collections-28f,1693,"""Iterator must not be null.""","""""",False
+Collections-28f,1731,list1.size() > list2.size(),list1.size() < list2.size(),False
+Collections-28f,1788,list1 == null || list2 == null || list1.size() != list2.size(),list1 == null || list2 == null,False
+Collections-28f,1836,obj == null,false,False
+Collections-28f,1892,a == null,false,False
+Collections-28f,2020,answer != null,false,False
+Collections-28f,2026,map.get(key),null,False
+Collections-28f,2042,Boolean.FALSE;,<NO-OP>,False
+Collections-28f,2056,return null;,<NO-OP>,False
+Collections-28f,2072,Integer.valueOf(answer.intValue()),null,False
+Collections-28f,2079,Long.valueOf(answer.longValue()),null,False
+Collections-28f,2092,return (Double)answer;,<NO-OP>,False
+Collections-28f,2103,answer != null && answer instanceof Map,false,False
+Collections-28f,2169,answer == null,true,False
+Collections-28f,2180,byteObject == null,byteObject != null,False
+Collections-28f,2184,0,-1,False
+Collections-28f,2208,0L,-1L,False
+Collections-28f,2210,longObject.longValue(),0L,False
+Collections-28f,2248,integerObject == null,true,False
+Collections-28f,2511,FixedSizeMap.fixedSizeMap(map),null,False
+Collections-28f,2940,b == null,false,False
+Collections-28f,2963,a.isEmpty() && b.isEmpty(),b.isEmpty(),False
+Collections-28f,2964,a.isEmpty() && b.isEmpty(),true,False
+Collections-28f,3025,a == null || b == null,false,False
+Collections-28f,3070,4,0,False
+Collections-28f,3092,"obj instanceof WrappedPut && ((WrappedPut<?, ?>)obj).put.equals(this.put)","obj instanceof WrappedPut == ((WrappedPut<?, ?>)obj).put.equals(this.put)",False
+Collections-28f,3096,"obj instanceof WrappedPut && ((WrappedPut<?, ?>)obj).put.equals(this.put)",true,False
+Collections-28f,3116,"""Put must not be null""","""""",False
+Collections-28f,3204,return containsAll((Bag<?>)coll);,<NO-OP>,True
+Collections-28f,3321,changed || added,added,False
+Collections-28f,3388,false,true,False
+Collections-28f,3400,1 <= otherCount,1 >= otherCount,False
+Collections-28f,3450,index > 0,index != 0,False
+Collections-28f,3538,other.getCount(element) != getCount(element),other.getCount(element) < getCount(element),False
+Collections-28f,3578,');,<NO-OP>,False
+Collections-28f,3736,"""Predicate must not be null.""","""""",False
+Collections-28f,3777,set == null,false,False
+Collections-28f,3910,getBag().uniqueSet(),null,False
+Collections-28f,3911,"TransformedSet.<E>transformingSet(set, transformer)",null,False
+Collections-28f,3989,in.defaultReadObject();,<NO-OP>,False
+Collections-28f,4065,entrySet == null,true,False
+Collections-28f,4115,parent.normalMap.containsKey(key),false,False
+Collections-28f,4138,false,true,False
+Collections-28f,4233,last.getValue(),null,False
+Collections-28f,4252,"""Iterator setValue() can only be called after next() and before remove()""","""""",False
+Collections-28f,4285,entry.setValue(object),null,False
+Collections-28f,4289,true,false,False
+Collections-28f,4414,oldValue,null,False
+Collections-28f,4716,from == null,true,False
+Collections-28f,4796,currentNode != null,false,False
+Collections-28f,4831,"getGrandParent(currentNode, dataElement) != null",false,False
+Collections-28f,4942,"makeBlack(getRightChild(siblingNode, dataElement), dataElement);",<NO-OP>,False
+Collections-28f,4956,"isBlack(getRightChild(siblingNode, dataElement), dataElement) && isBlack(getLeftChild(siblingNode, dataElement), dataElement)","isBlack(getLeftChild(siblingNode, dataElement), dataElement)",False
+Collections-28f,4961,"isBlack(getLeftChild(siblingNode, dataElement), dataElement)",false,False
+Collections-28f,5029,xWasLeftChild,false,False
+Collections-28f,5123,obj == this,false,False
+Collections-28f,5126,return true;,<NO-OP>,False
+Collections-28f,5142,return false;,<NO-OP>,False
+Collections-28f,5176,nodeCount > 0,true,True
+Collections-28f,5218,""", ""","""""",False
+Collections-28f,5243,stream.writeObject(entry.getKey());,<NO-OP>,False
+Collections-28f,5261,doRemoveValue(o) != null,doRemoveValue(o) == null,False
+Collections-28f,5323,node != null && node.getKey().equals(value),node.getKey().equals(value),False
+Collections-28f,5328,obj instanceof Map.Entry == false,false,False
+Collections-28f,5364,modifications != expectedModifications,modifications > expectedModifications,False
+Collections-28f,5374,previousNode != null,true,False
+Collections-28f,5396,modifications != expectedModifications,modifications < expectedModifications,False
+Collections-28f,5451,calculatedHashCode = false;,<NO-OP>,True
+Collections-28f,5498,"""Map.Entry.setValue is not supported""","""""",False
+Collections-28f,5535,TreeBidiMap.this.nodeCount == 0,false,False
+Collections-28f,5540,0,-1,False
+Collections-28f,5650,"addComposited(compositeCollection1, compositeCollection2);",<NO-OP>,False
+Collections-28f,5790,changed,true,False
+Collections-28f,5824,coll = ((SynchronizedCollection<E>)coll).decorated();,<NO-OP>,False
+Collections-28f,5833,decorated().maxSize(),0,False
+Collections-28f,5865,-1 * hash,-1 % hash,False
+Collections-28f,5889,trueFirst,false,False
+Collections-28f,5958,checkLocked();,<NO-OP>,False
+Collections-28f,6051,null == comparatorChain,false,False
+Collections-28f,6060,comparatorChain.equals(chain.comparatorChain)),(null == comparatorChain ? null == chain.comparatorChain : comparatorChain.equals(chain.comparatorChain)),False
+Collections-28f,6061,comparatorChain.equals(chain.comparatorChain)),true,False
+Collections-28f,6104,result == null,false,False
+Collections-28f,6159,total * 37,total % 37,False
+Collections-28f,6170,map.hashCode()),total * 37 - (map == null ? 0 : map.hashCode()),False
+Collections-28f,6257,unknownObjectBehavior == comp.unknownObjectBehavior && counter == comp.counter,counter == comp.counter,False
+Collections-28f,6277,unknownObjectBehavior == comp.unknownObjectBehavior && counter == comp.counter && isLocked == comp.isLocked && unknownObjectBehavior == comp.unknownObjectBehavior,unknownObjectBehavior == comp.unknownObjectBehavior,False
+Collections-28f,6332,1) * nonNullComparator.hashCode(),(nullsAreHigh ? -1 : 1) - nonNullComparator.hashCode(),False
+Collections-28f,6355,this.nullsAreHigh == other.nullsAreHigh && this.nonNullComparator.equals(other.nonNullComparator),this.nullsAreHigh == other.nullsAreHigh,False
+Collections-28f,6542,""" was null""","""""",False
+Collections-28f,6661,1,0,False
+Collections-28f,6722,transformers.length == 0,transformers.length <= 0,True
+Collections-28f,7257,(paramTypes != null) && (args != null),(args != null),False
+Collections-28f,7260,paramTypes.length != args.length,paramTypes.length < args.length,False
+Collections-28f,7320,"""The method to invoke must not be null""","""""",False
+Collections-28f,7325,"""The method to invoke must not be null""","""""",False
+Collections-28f,7364,args != null,true,False
+Collections-28f,7372,paramTypes.length != args.length,paramTypes.length < args.length,False
+Collections-28f,7468,preds.length == 0,preds.length < 0,False
+Collections-28f,7665,defaultClosure == null,true,False
+Collections-28f,7717,return;,<NO-OP>,False
+Collections-28f,7747,map == null,false,False
+Collections-28f,7751,0,-1,False
+Collections-28f,7868,"""Iterator contains no elements""","""""",False
+Collections-28f,7878,"""Iterator contains no elements""","""""",False
+Collections-28f,7882,iterator == null,false,False
+Collections-28f,7905,iterator.getKey(),null,False
+Collections-28f,7975,"""remove() method is not supported""","""""",False
+Collections-28f,8015,"""add() method is not supported""","""""",False
+Collections-28f,8130,true,false,False
+Collections-28f,8134,false,true,False
+Collections-28f,8222,this.iterator = map.entrySet().iterator();,<NO-OP>,False
+Collections-28f,8227,last.getKey(),null,False
+Collections-28f,8234,last = null;,<NO-OP>,False
+Collections-28f,8248,last == null,false,False
+Collections-28f,8399,previousObject = null;,<NO-OP>,False
+Collections-28f,8491,iterator.remove();,<NO-OP>,False
+Collections-28f,8589,removeState = wrappedIteratorIndex == currentIndex;,<NO-OP>,False
+Collections-28f,8636,(ListIterator<E>)iterator,null,False
+Collections-28f,9374,"""ListIterator must not be null""","""""",False
+Collections-28f,9484,obj == this,obj != this,False
+Collections-28f,9491,obj instanceof DefaultKeyValue == false,false,False
+Collections-28f,9507,other.getValue() == null,true,False
+Collections-28f,9768,node == header,false,False
+Collections-28f,9926,""") less than zero.""","""""",False
+Collections-28f,9942,""") is the size of the list.""","""""",False
+Collections-28f,10025,parent.modCount != expectedModCount,parent.modCount > expectedModCount,False
+Collections-28f,10052,"""Already at start of list.""","""""",False
+Collections-28f,10065,checkModCount();,<NO-OP>,False
+Collections-28f,10084,startIndex + sub.offset,startIndex - sub.offset,False
+Collections-28f,10102,previousIndex() >= 0,true,False
+Collections-28f,10217,index + offset,index - offset,False
+Collections-28f,10321,0,-1,True
+Collections-28f,10376,out.defaultWriteObject();,<NO-OP>,False
+Collections-28f,10475,valid = false;,<NO-OP>,False
+Collections-28f,10503,sub.size++;,<NO-OP>,False
+Collections-28f,10599,object == null,object != null,False
+Collections-28f,10618,"decorated().subList(fromIndex, toIndex)",null,False
+Collections-28f,10676,maximumCacheSize - cacheSize,maximumCacheSize + cacheSize,False
+Collections-28f,10690,addNodeToCache(oldNode);,<NO-OP>,False
+Collections-28f,10841,subSet.addAll(list);,<NO-OP>,False
+Collections-28f,10965,c.isEmpty(),false,False
+Collections-28f,10968,return false;,<NO-OP>,False
+Collections-28f,10994,1,-1,False
+Collections-28f,11313,0,-1,False
+Collections-28f,11382,relativePosition > 0,false,False
+Collections-28f,11445,relativePosition < 0,relativePosition <= 0,False
+Collections-28f,11465,0,1,False
+Collections-28f,11504,0,1,False
+Collections-28f,11602,otherTree.height > height,false,False
+Collections-28f,11657,sAbsolutePosition - currentSize,sAbsolutePosition / currentSize,False
+Collections-28f,11742,getRightSubTree() != null,getRightSubTree() == null,False
+Collections-28f,11752,parent.root.get(fromIndex);,<NO-OP>,False
+Collections-28f,11774,"""No element at index ""","""""",False
+Collections-28f,12221,return;,<NO-OP>,False
+Collections-28f,12317,current == null,false,False
+Collections-28f,12353,match != null,true,False
+Collections-28f,12413,size() == 0,size() < 0,False
+Collections-28f,12715,0,-1,False
+Collections-28f,12728,array.length > 0,array.length != 0,True
+Collections-28f,12731,array.length > 0,array.length == 0,False
+Collections-28f,12733,array.length > 0,false,False
+Collections-28f,12753,result.length > array.length,result.length >= array.length,False
+Collections-28f,12892,size / 2,size - 2,False
+Collections-28f,12935,entry.before,null,False
+Collections-28f,12949,super.previousEntry().getKey(),null,False
+Collections-28f,13119,"""null values not allowed""","""""",False
+Collections-28f,13261,entryKey == null || entryValue == null,entryValue == null,False
+Collections-28f,13285,parent.keyType != ReferenceStrength.HARD,parent.keyType == ReferenceStrength.HARD,False
+Collections-28f,13296,parent.keyType != ReferenceStrength.HARD && key == ref,true,False
+Collections-28f,13299,parent.valueType != ReferenceStrength.HARD,false,False
+Collections-28f,13309,parent.valueType != ReferenceStrength.HARD && value == ref,true,False
+Collections-28f,13310,parent.valueType != ReferenceStrength.HARD && value == ref,parent.valueType != ReferenceStrength.HARD || value == ref,False
+Collections-28f,13330,parent.purgeValues,true,False
+Collections-28f,13543,i >= 0,i > 0,False
+Collections-28f,13552,intersect.size() != 0,intersect.size() > 0,True
+Collections-28f,13603,1,0,False
+Collections-28f,13918,key1 == null,false,False
+Collections-28f,14013,0,-1,False
+Collections-28f,14083,value2 == null,value2 != null,False
+Collections-28f,14129,value1 = value;,<NO-OP>,False
+Collections-28f,14140,key.hashCode(),0,False
+Collections-28f,14175,hash1 == hashCode,hash1 != hashCode,False
+Collections-28f,14263,key1 = key2 = key3 = null;,<NO-OP>,False
+Collections-28f,14284,key3 == null,false,False
+Collections-28f,14324,2,0,False
+Collections-28f,14354,1,0,False
+Collections-28f,14373,0,-1,True
+Collections-28f,14435,hash1 == hashCode,hash1 <= hashCode,False
+Collections-28f,14439,hash1 == hashCode,true,False
+Collections-28f,14507,value2 = null;,<NO-OP>,False
+Collections-28f,14517,hash1 == hashCode,hash1 >= hashCode,False
+Collections-28f,14531,key1 = null;,<NO-OP>,False
+Collections-28f,14548,key1 = key2 = key3 = null;,<NO-OP>,False
+Collections-28f,14549,value1 = value2 = value3 = null;,<NO-OP>,False
+Collections-28f,14627,canRemove,true,False
+Collections-28f,14628,"""Iterator[""","""""",False
+Collections-28f,14705,"(Map.Entry<?, ?>)obj",null,False
+Collections-28f,14735,key == null,false,False
+Collections-28f,14737,0,1,False
+Collections-28f,14784,result,false,False
+Collections-28f,14804,return delegateMap.values();,<NO-OP>,False
+Collections-28f,14925,other.containsKey(key1) == false,false,False
+Collections-28f,15004,key2 == this,true,False
+Collections-28f,15086,"""Can\'t move header to MRU (please report this to dev@commons.apache.org)""","""""",False
+Collections-28f,15117,"""Entry.after=null, header.after""","""""",False
+Collections-28f,15121,""" size=""","""""",False
+Collections-28f,15274,insertOrder.addAll(decorated().keySet());,<NO-OP>,False
+Collections-28f,15367,result,null,False
+Collections-28f,15408,decorated().containsKey(key),true,False
+Collections-28f,15472,index < 0 || index > insertOrder.size(),index < 0,False
+Collections-28f,15540,return true;,<NO-OP>,True
+Collections-28f,15564,readable = true;,<NO-OP>,False
+Collections-28f,15589,iterator = parent.insertOrder.listIterator();,<NO-OP>,False
+Collections-28f,15955,multi.size() == 3,multi.size() >= 3,False
+Collections-28f,16026,key3 != null,false,False
+Collections-28f,16062,entry.hashCode == hashCode,true,False
+Collections-28f,16107,entry.hashCode == hashCode,true,False
+Collections-28f,16193,multi.size() == 4,multi.size() >= 4,False
+Collections-28f,16229,key2 == multi.getKey(1),key2 != multi.getKey(1),False
+Collections-28f,16289,3,0,False
+Collections-28f,16301,key4 != null && key4.equals(multi.getKey(3)),false,False
+Collections-28f,16397,entry.hashCode == hashCode,entry.hashCode <= hashCode,True
+Collections-28f,16508,1,0,False
+Collections-28f,16541,key3 != null && key3.equals(multi.getKey(2)),key3 != null != key3.equals(multi.getKey(2)),False
+Collections-28f,16642,multi.getKey(0) == null,false,False
+Collections-28f,16687,key2 == null,false,False
+Collections-28f,16693,multi.getKey(1) == null,true,False
+Collections-28f,16704,true,false,False
+Collections-28f,16811,1,0,False
+Collections-28f,16907,timeUnit == null,false,False
+Collections-28f,16919,-1L,0L,False
+Collections-28f,17054,false,true,False
+Collections-28f,17143,false,true,False
+Collections-28f,17155,false,true,False
+Collections-28f,17172,canGetSet == false,canGetSet != false,False
+Collections-28f,17239,128,0,True
+Collections-28f,17249,17,0,False
+Collections-28f,17285,key.hashCode(),0,False
+Collections-28f,17308,~(hash << 11),+(hash << 11),False
+Collections-28f,17313,hash << 11,hash >>> 11,False
+Collections-28f,17620,value.equals(e2.getValue())),(value == null ? e2.getValue() == null : value.equals(e2.getValue())),False
+Collections-28f,17698,"obj instanceof Map.Entry<?, ?> == false",false,False
+Collections-28f,17822,0,-1,True
+Collections-28f,17839,"new TransformedSortedMap<K, V>(map, keyTransformer, valueTransformer)",null,False
+Collections-28f,17843,"new TransformedSortedMap<K, V>(map, keyTransformer, valueTransformer)",null,False
+Collections-28f,17865,array.length > 0,array.length == 0,False
+Collections-28f,17881,i < result.length,true,False
+Collections-28f,17969,list == null,true,False
+Collections-28f,18093,"""Map must not be null.""","""""",False
+Collections-28f,18147,return true;,<NO-OP>,True
+Collections-28f,18169,coll != null,coll == null,False
+Collections-28f,18170,coll != null,false,False
+Collections-28f,18223,getMapping(),null,False
+Collections-28f,18239,coll.toArray(),null,False
+Collections-28f,18240,getMapping(),null,False
+Collections-28f,18245,coll.toArray(a),null,False
+Collections-28f,18261,col != null,true,False
+Collections-28f,18323,collection == null,true,False
+Collections-28f,18327,collection.clear();,<NO-OP>,False
+Collections-28f,18337,this == object || decoratedMap.equals(object),decoratedMap.equals(object),False
+Collections-28f,18341,AbstractMultiValuedMap.this.clear();,<NO-OP>,False
+Collections-28f,18344,AsMap.this.clear();,<NO-OP>,False
+Collections-28f,18388,entry.getElement(),null,False
+Collections-28f,18425,oldCount < count,oldCount == count,False
+Collections-28f,18442,0,-1,False
+Collections-28f,18446,getCount(object) > 0,getCount(object) == 0,False
+Collections-28f,18447,getCount(object) > 0,getCount(object) >= 0,False
+Collections-28f,18451,parent,null,False
+Collections-28f,18665,0,1,False
+Collections-28f,18669,i < entrySize,i == entrySize,False
+Collections-28f,18676,"setCount(obj, count);",<NO-OP>,False
+Collections-28f,18851,this.current = null;,<NO-OP>,False
+Collections-28f,18936,0,-1,False
+Collections-28f,19012,"new UniqueSetIterator<E>(getMap().keySet().iterator(), this)",null,False
+Collections-28f,19034,parent,null,False
+Collections-28f,19039,last,null,False
+Collections-28f,19298,0,1,True
+Collections-28f,19362,null == element,false,False
+Collections-28f,19557,start < lastReturnedIndex && pos < end,pos < end,False
+Collections-28f,19619,queue.size() > 0,true,False
+Collections-28f,19766,n == 0,false,False
+Collections-28f,20073,k == delta - d,k <= delta - d,True
+Collections-28f,20191,2,-2,True
+Collections-28f,20293,middle.getEnd() == start1,middle.getEnd() < start1,False
+Collections-28f,20347,i < end1,i != end1,False
+Collections-28f,20869,0,-1,True
+Collections-28f,20948,object == this,true,False
+Collections-28f,20977,valueTransformer.transform(value),null,False
+Collections-28f,21092,bitIndex == EQUAL_BIT_KEY,bitIndex < EQUAL_BIT_KEY,False
+Collections-28f,21099,bitIndex == NULL_BIT_KEY,bitIndex < NULL_BIT_KEY,False
+Collections-28f,21164,0,-1,False
+Collections-28f,21176,"return root.setKeyValue(key, value);",<NO-OP>,False
+Collections-28f,21312,entry.getValue(),null,False
+Collections-28f,21313,h.bitIndex <= bitIndex,h.bitIndex != bitIndex,False
+Collections-28f,21328,"isBitSet(key, h.bitIndex, lengthInBits)",true,False
+Collections-28f,21412,h != root,true,False
+Collections-28f,21445,h == root,false,False
+Collections-28f,21462,p.parent != h,true,False
+Collections-28f,21641,offsetInBits + lengthInBits,offsetInBits - lengthInBits,False
+Collections-28f,21644,offsetLength > lengthInBits(key),offsetLength < lengthInBits(key),False
+Collections-28f,21665,"new RangeEntryMap(fromKey, null)",null,False
+Collections-28f,21684,size() > 1,size() >= 1,False
+Collections-28f,21694,"bitIndex(key, found.key)",0,False
+Collections-28f,21719,size() > 1,true,False
+Collections-28f,21726,lengthInBits(key),0,False
+Collections-28f,21755,return ceil;,<NO-OP>,False
+Collections-28f,21774,lengthInBits == 0,false,False
+Collections-28f,21797,KeyAnalyzer.isEqualBitKey(bitIndex),true,False
+Collections-28f,21800,lengthInBits(key),0,False
+Collections-28f,21818,"bitIndex(key, found.key)",0,False
+Collections-28f,21838,return found;,<NO-OP>,False
+Collections-28f,21877,current.isEmpty(),false,False
+Collections-28f,21999,return root;,<NO-OP>,False
+Collections-28f,22034,this.parent = null;,<NO-OP>,True
+Collections-28f,22060,bitIndex == -1,bitIndex <= -1,False
+Collections-28f,22080,-1,1,False
+Collections-28f,22088,"""parent=""","""""",False
+Collections-28f,22128,-1,1,False
+Collections-28f,22136,"""right=""","""""",False
+Collections-28f,22141,"""]""","""""",False
+Collections-28f,22151,-1,0,False
+Collections-28f,22335,"""","""""",False
+Collections-28f,22369,getToKey(),null,False
+Collections-28f,22400,isFromInclusive(),false,False
+Collections-28f,22401,"getKeyAnalyzer().compare(key, fromKey)",0,False
+Collections-28f,22411,ret >= 0,ret != 0,False
+Collections-28f,22426,ret > 0,false,False
+Collections-28f,22523,toKey != null,true,False
+Collections-28f,22538,"e == null || toKey != null && !inToRange(first, false)",true,False
+Collections-28f,22600,size == -1,size != -1,False
+Collections-28f,22609,expectedModCount != AbstractPatriciaTrie.this.modCount,expectedModCount == AbstractPatriciaTrie.this.modCount,False
+Collections-28f,22640,node != null,true,False
+Collections-28f,22669,return true;,<NO-OP>,False
+Collections-28f,22670,false,true,False
+Collections-28f,22796,"e == null || !getKeyAnalyzer().isPrefix(prefix, offsetInBits, lengthInBits, last)","e == null != !getKeyAnalyzer().isPrefix(prefix, offsetInBits, lengthInBits, last)",False
+Collections-28f,22807,"getKeyAnalyzer().isPrefix(prefix, offsetInBits, lengthInBits, key)",false,False
+Collections-28f,22883,offset,0,False
+Collections-28f,22892,subtree.bitIndex,0,False
+Collections-28f,22904,bitIdx != subtree.bitIndex,false,False
+Collections-28f,22905,bitIdx != subtree.bitIndex,true,False
+Collections-28f,22938,(V)stream.readObject(),null,False
+Collections-28f,22975,new StringKeyAnalyzer(),null,False
+Collections-28f,22978,MSB >>> bit,MSB >> bit,False
+Collections-28f,23168,k != 0,k == 0,False
+Collections-28f,23171,k != 0,false,False
+Collections-28f,23213,(key.charAt(index) & mask(bit)) != 0,(key.charAt(index) & mask(bit)) > 0,True
+Csv-16f,24,false,true,False
+Csv-16f,43,c == LF || c == CR,c == LF != (c == CR),True
+Csv-16f,67,false,true,False
+Csv-16f,139,commentMarker.equals(other.commentMarker),false,False
+Csv-16f,147,other.escapeCharacter != null,false,False
+Csv-16f,157,nullString == null,true,False
+Csv-16f,159,other.nullString != null,false,False
+Csv-16f,161,false,true,False
+Csv-16f,163,nullString.equals(other.nullString),false,False
+Csv-16f,192,false,true,False
+Csv-16f,193,return false;,<NO-OP>,False
+Csv-16f,224,1,0,False
+Csv-16f,225,1,-1,False
+Csv-16f,227,prime * result,prime + result,False
+Csv-16f,228,prime * result,prime - result,False
+Csv-16f,230,prime * result + delimiter,prime * result % delimiter,False
+Csv-16f,231,prime * result + delimiter,prime * result * delimiter,False
+Csv-16f,232,prime * result + delimiter,prime * result - delimiter,False
+Csv-16f,233,prime * result + delimiter,prime * result / delimiter,False
+Csv-16f,236,prime * result,prime + result,False
+Csv-16f,241,quoteMode == null,true,False
+Csv-16f,243,0,-1,False
+Csv-16f,245,quoteMode.hashCode()),prime * result * ((quoteMode == null) ? 0 : quoteMode.hashCode()),False
+Csv-16f,246,quoteMode.hashCode()),prime * result - ((quoteMode == null) ? 0 : quoteMode.hashCode()),False
+Csv-16f,248,quoteMode.hashCode());,<NO-OP>,False
+Csv-16f,249,prime * result,prime % result,False
+Csv-16f,250,prime * result,prime + result,False
+Csv-16f,251,prime * result,prime - result,False
+Csv-16f,253,quoteCharacter == null,quoteCharacter != null,False
+Csv-16f,254,quoteCharacter == null,false,False
+Csv-16f,255,quoteCharacter == null,true,False
+Csv-16f,257,0,-1,False
+Csv-16f,260,quoteCharacter.hashCode()),prime * result - ((quoteCharacter == null) ? 0 : quoteCharacter.hashCode()),False
+Csv-16f,261,quoteCharacter.hashCode()),prime * result / ((quoteCharacter == null) ? 0 : quoteCharacter.hashCode()),False
+Csv-16f,262,quoteCharacter.hashCode());,<NO-OP>,False
+Csv-16f,263,prime * result,prime % result,False
+Csv-16f,264,prime * result,prime + result,False
+Csv-16f,265,prime * result,prime - result,False
+Csv-16f,269,commentMarker == null,true,False
+Csv-16f,270,0,1,False
+Csv-16f,273,commentMarker.hashCode()),prime * result * ((commentMarker == null) ? 0 : commentMarker.hashCode()),False
+Csv-16f,280,prime * result,prime / result,False
+Csv-16f,283,escapeCharacter == null,true,False
+Csv-16f,284,0,1,False
+Csv-16f,285,0,-1,False
+Csv-16f,288,escapeCharacter.hashCode()),prime * result - ((escapeCharacter == null) ? 0 : escapeCharacter.hashCode()),False
+Csv-16f,290,escapeCharacter.hashCode());,<NO-OP>,False
+Csv-16f,291,prime * result,prime % result,False
+Csv-16f,292,prime * result,prime + result,False
+Csv-16f,293,prime * result,prime - result,False
+Csv-16f,294,prime * result,prime / result,False
+Csv-16f,302,nullString.hashCode()),prime * result - ((nullString == null) ? 0 : nullString.hashCode()),False
+Csv-16f,304,nullString.hashCode());,<NO-OP>,False
+Csv-16f,307,prime * result,prime - result,False
+Csv-16f,308,prime * result,prime / result,False
+Csv-16f,309,ignoreSurroundingSpaces,false,False
+Csv-16f,312,1231,-1231,False
+Csv-16f,317,1237),prime * result - (ignoreSurroundingSpaces ? 1231 : 1237),False
+Csv-16f,319,1237);,<NO-OP>,False
+Csv-16f,320,prime * result,prime % result,False
+Csv-16f,321,prime * result,prime + result,False
+Csv-16f,324,ignoreHeaderCase,false,False
+Csv-16f,325,ignoreHeaderCase,true,False
+Csv-16f,327,1231,-1231,False
+Csv-16f,329,1237,-1237,False
+Csv-16f,330,1237),prime * result % (ignoreHeaderCase ? 1231 : 1237),False
+Csv-16f,332,1237),prime * result - (ignoreHeaderCase ? 1231 : 1237),False
+Csv-16f,333,1237),prime * result / (ignoreHeaderCase ? 1231 : 1237),False
+Csv-16f,335,prime * result,prime % result,False
+Csv-16f,337,prime * result,prime - result,False
+Csv-16f,341,1231,0,False
+Csv-16f,344,1237,-1237,False
+Csv-16f,345,1237),prime * result % (ignoreEmptyLines ? 1231 : 1237),False
+Csv-16f,347,1237),prime * result - (ignoreEmptyLines ? 1231 : 1237),False
+Csv-16f,348,1237),prime * result / (ignoreEmptyLines ? 1231 : 1237),False
+Csv-16f,349,1237);,<NO-OP>,False
+Csv-16f,350,prime * result,prime % result,False
+Csv-16f,352,prime * result,prime - result,False
+Csv-16f,354,skipHeaderRecord,false,False
+Csv-16f,355,skipHeaderRecord,true,False
+Csv-16f,356,1231,0,False
+Csv-16f,358,1237,0,False
+Csv-16f,359,1237,-1237,False
+Csv-16f,364,1237);,<NO-OP>,False
+Csv-16f,366,prime * result,prime + result,False
+Csv-16f,369,recordSeparator == null,recordSeparator != null,False
+Csv-16f,371,recordSeparator == null,true,False
+Csv-16f,373,0,-1,False
+Csv-16f,374,recordSeparator.hashCode()),prime * result % ((recordSeparator == null) ? 0 : recordSeparator.hashCode()),False
+Csv-16f,375,recordSeparator.hashCode()),prime * result * ((recordSeparator == null) ? 0 : recordSeparator.hashCode()),False
+Csv-16f,377,recordSeparator.hashCode()),prime * result / ((recordSeparator == null) ? 0 : recordSeparator.hashCode()),False
+Csv-16f,378,recordSeparator.hashCode());,<NO-OP>,False
+Csv-16f,380,prime * result,prime + result,False
+Csv-16f,381,prime * result,prime - result,False
+Csv-16f,382,prime * result,prime / result,False
+Csv-16f,384,prime * result + Arrays.hashCode(header),prime * result * Arrays.hashCode(header),False
+Csv-16f,387,result = prime * result + Arrays.hashCode(header);,<NO-OP>,False
+Csv-16f,388,result,0,False
+Csv-16f,442,offset,0,True
+Csv-16f,443,offset,0,True
+Csv-16f,450,pos < end,pos != end,True
+Csv-16f,472,c == CR || c == LF,c == CR != (c == LF),True
+Csv-16f,486,c == CR || c == LF || c == delim,(c == CR || c == LF) != (c == delim),False
+Csv-16f,541,pos > start,pos != start,False
+Csv-16f,547,pos > start,true,False
+Csv-16f,550,offset,0,True
+Csv-16f,565,break;,<NO-OP>,False
+Csv-16f,574,len <= 0,len == 0,True
+Csv-16f,585,c <= COMMENT,c < COMMENT,False
+Csv-16f,643,c == LF || c == CR || c == quoteChar || c == delimChar,(c == LF || c == CR || c == quoteChar) != (c == delimChar),False
+Csv-16f,663,c = value.charAt(pos);,<NO-OP>,False
+Csv-16f,678,"""","""""",True
+Csv-16f,720,i < values.length,i != values.length,True
+Csv-16f,756,isNullStringSet(),false,False
+Csv-16f,758,sb.append(' ');,<NO-OP>,False
+Csv-16f,778,"ignored"");",<NO-OP>,False
+Csv-16f,782,headerComments != null,false,False
+Csv-16f,788,header != null,false,False
+Csv-16f,790,sb.append(' ');,<NO-OP>,False
+Csv-16f,791,"""","""""",False
+Csv-16f,792,""").append(Arrays.toString(header));",<NO-OP>,False
+Csv-16f,801,i < values.length,i != values.length,True
+Csv-16f,814,return ((String)charSequence).trim();,<NO-OP>,False
+Csv-16f,815,charSequence.length(),0,False
+Csv-16f,816,count,0,False
+Csv-16f,817,0,1,False
+Csv-16f,818,0,-1,False
+Csv-16f,819,pos < len,pos != len,True
+Csv-16f,821,pos < len,pos == len,False
+Csv-16f,822,pos < len,pos > len,False
+Csv-16f,823,pos < len,pos >= len,False
+Csv-16f,825,pos < len,true,False
+Csv-16f,826,charSequence.charAt(pos) <= SP,charSequence.charAt(pos) != SP,False
+Csv-16f,828,charSequence.charAt(pos) <= SP,charSequence.charAt(pos) == SP,False
+Csv-16f,832,charSequence.charAt(pos) <= SP,true,False
+Csv-16f,833,pos < len && charSequence.charAt(pos) <= SP,pos < len != charSequence.charAt(pos) <= SP,False
+Csv-16f,836,pos < len && charSequence.charAt(pos) <= SP,pos < len,False
+Csv-16f,839,pos < len && charSequence.charAt(pos) <= SP,pos < len || charSequence.charAt(pos) <= SP,False
+Csv-16f,840,pos++;,<NO-OP>,False
+Csv-16f,848,1,0,False
+Csv-16f,852,len - 1,len + 1,False
+Csv-16f,855,charSequence.charAt(len - 1) <= SP,charSequence.charAt(len - 1) < SP,False
+Csv-16f,856,charSequence.charAt(len - 1) <= SP,charSequence.charAt(len - 1) == SP,False
+Csv-16f,861,pos < len && charSequence.charAt(len - 1) <= SP,pos < len != charSequence.charAt(len - 1) <= SP,False
+Csv-16f,863,pos < len && charSequence.charAt(len - 1) <= SP,false,False
+Csv-16f,865,pos < len && charSequence.charAt(len - 1) <= SP,charSequence.charAt(len - 1) <= SP,False
+Csv-16f,866,pos < len && charSequence.charAt(len - 1) <= SP,true,False
+Csv-16f,870,0,-1,False
+Csv-16f,871,pos > 0,pos != 0,True
+Csv-16f,873,pos > 0,pos <= 0,False
+Csv-16f,874,pos > 0,pos == 0,False
+Csv-16f,880,len < count,len == count,False
+Csv-16f,881,len < count,len > count,False
+Csv-16f,884,len < count,true,True
+Csv-16f,885,pos > 0 || len < count,pos > 0 != len < count,False
+Csv-16f,886,pos > 0 || len < count,pos > 0 && len < count,False
+Csv-16f,887,pos > 0 || len < count,pos > 0 == len < count,False
+Csv-16f,891,pos > 0 || len < count,true,False
+Csv-16f,913,"""\')""","""""",False
+Csv-16f,931,"""The escape character and the delimiter cannot be the same (\'""","""""",False
+Csv-16f,950,"""The comment start character and the delimiter cannot be the same (\'""","""""",False
+Csv-16f,951,"""\')""","""""",False
+Csv-16f,963,"""\')""","""""",False
+Csv-16f,975,"""\')""","""""",False
+Csv-16f,989,"""No quotes mode set but no escape character is set""","""""",False
+Csv-16f,996,"\'""","""""",False
+Csv-16f,1006,isLineBreak(delimiter),false,False
+Csv-16f,1008,"""The delimiter cannot be a line break""","""""",False
+Csv-16f,1023,i < enumValues.length,i != enumValues.length,True
+Csv-16f,1034,resultSet != null,true,False
+Csv-16f,1037,metaData != null,true,False
+Csv-16f,1042,i < columnCount,i != columnCount,True
+Csv-16f,1069,"""The quoteChar cannot be a line break""","""""",False
+Csv-16f,1089,""" [""","""""",False
+Csv-16f,1090,"""]""","""""",False
+Csv-16f,1091,"""file""","""""",False
+Csv-16f,1093,"""format""","""""",False
+Csv-16f,1096,"""inputStream""","""""",False
+Csv-16f,1098,"""format""","""""",False
+Csv-16f,1101,"""path""","""""",False
+Csv-16f,1104,"Assertions.notNull(format, ""format"");",<NO-OP>,False
+Csv-16f,1105,"parse(Files.newBufferedReader(path, charset), format)",null,False
+Csv-16f,1106,"new CSVParser(reader, format)",null,False
+Csv-16f,1107,"""string""","""""",False
+Csv-16f,1109,"""format""","""""",False
+Csv-16f,1116,"""format""","""""",False
+Csv-16f,1117,"Assertions.notNull(format, ""format"");",<NO-OP>,False
+Csv-16f,1125,"""reader""","""""",False
+Csv-16f,1127,"""format""","""""",False
+Csv-16f,1148,lastRecord && inputClean.isEmpty(),inputClean.isEmpty(),False
+Csv-16f,1150,lastRecord && inputClean.isEmpty(),lastRecord || inputClean.isEmpty(),False
+Csv-16f,1165,this.lexer != null,true,False
+Csv-16f,1197,nextRecord != null,true,False
+Csv-16f,1205,headerRecord != null,true,False
+Csv-16f,1208,i < headerRecord.length,i != headerRecord.length,True
+Csv-16f,1226,header == null || header.trim().isEmpty(),true,False
+Csv-16f,1241,"\""""","""""",False
+Csv-16f,1247,"""","""""",False
+Csv-16f,1271,"""No more CSV records available""","""""",False
+Csv-16f,1280,false,true,False
+Csv-16f,1288,true,false,False
+Csv-16f,1301,"""","""""",True
+Csv-16f,1318,values != null,true,False
+Csv-16f,1327,"""No header mapping was specified, the record values can\'t be accessed by name""","""""",False
+Csv-16f,1343,mapping.size() == values.length,mapping.size() <= values.length,False
+Csv-16f,1355,comment != null,comment == null,False
+Csv-16f,1368,mapping.get(name).intValue() < values.length,mapping.get(name).intValue() != values.length,False
+Csv-16f,1400,"""CSVRecord [comment=""","""""",False
+Csv-16f,1402,""", recordNumber=""","""""",False
+Csv-16f,1403,""", values=""","""""",False
+Csv-16f,1404,"""]""","""""",False
+Csv-16f,1407,"""out""","""""",False
+Csv-16f,1409,"""format""","""""",False
+Csv-16f,1418,line != null,true,False
+Csv-16f,1433,flush || format.getAutoFlush(),flush != format.getAutoFlush(),False
+Csv-16f,1442,((Flushable)out).flush();,<NO-OP>,False
+Csv-16f,1451,newRecord,true,False
+Csv-16f,1452,println();,<NO-OP>,False
+Csv-16f,1457,i < comment.length(),i != comment.length(),True
+Csv-16f,1467,i + 1,i % 1,False
+Csv-16f,1470,i + 1,i / 1,False
+Csv-16f,1471,i + 1 < comment.length(),i + 1 != comment.length(),True
+Csv-16f,1473,i + 1 < comment.length(),i + 1 == comment.length(),False
+Csv-16f,1474,i + 1 < comment.length(),i + 1 > comment.length(),False
+Csv-16f,1478,1,0,False
+Csv-16f,1481,i + 1,i * 1,False
+Csv-16f,1483,i + 1,i / 1,False
+Csv-16f,1484,comment.charAt(i + 1) == LF,comment.charAt(i + 1) != LF,False
+Csv-16f,1485,comment.charAt(i + 1) == LF,comment.charAt(i + 1) < LF,False
+Csv-16f,1486,comment.charAt(i + 1) == LF,comment.charAt(i + 1) <= LF,False
+Csv-16f,1487,comment.charAt(i + 1) == LF,comment.charAt(i + 1) > LF,False
+Csv-16f,1490,comment.charAt(i + 1) == LF,true,False
+Csv-16f,1493,i + 1 < comment.length() && comment.charAt(i + 1) == LF,false,False
+Csv-16f,1496,i + 1 < comment.length() && comment.charAt(i + 1) == LF,true,False
+Csv-16f,1497,i + 1 < comment.length() && comment.charAt(i + 1) == LF,i + 1 < comment.length() || comment.charAt(i + 1) == LF,False
+Csv-16f,1504,break;,<NO-OP>,True
+Csv-16f,1513,newRecord = true;,<NO-OP>,False
+Csv-16f,1554,lastChar = c;,<NO-OP>,False
+Csv-16f,1557,isEndOfFile(c),false,False
+Csv-16f,1560,return token;,<NO-OP>,False
+Csv-16f,1573,isEndOfFile(lastChar) || !isDelimiter(lastChar) && isEndOfFile(c),!isDelimiter(lastChar) && isEndOfFile(c),False
+Csv-16f,1586,line == null,false,False
+Csv-16f,1589,return token;,<NO-OP>,False
+Csv-16f,1600,isWhitespace(c) && !eol,isWhitespace(c) == !eol,False
+Csv-16f,1608,isDelimiter(c),false,False
+Csv-16f,1643,unescaped == END_OF_STREAM,unescaped <= END_OF_STREAM,False
+Csv-16f,1656,token,null,False
+Csv-16f,1657,getCurrentLineNumber(),0L,False
+Csv-16f,1663,unescaped == END_OF_STREAM,unescaped < END_OF_STREAM,False
+Csv-16f,1693,isWhitespace(c),true,False
+Csv-16f,1694,"""(line ""","""""",False
+Csv-16f,1698,"""(startline ""","""""",False
+Csv-16f,1699,""") EOF reached before encapsulated token finished""","""""",False
+Csv-16f,1709,return TAB;,<NO-OP>,False
+Csv-16f,1710,return BACKSPACE;,<NO-OP>,False
+Csv-16f,1720,0,-1,False
+Csv-16f,1721,length > 0,length != 0,True
+Csv-16f,1735,length > 0 && Character.isWhitespace(buffer.charAt(length - 1)),length > 0 == Character.isWhitespace(buffer.charAt(length - 1)),False
+Csv-16f,1738,length > 0 && Character.isWhitespace(buffer.charAt(length - 1)),Character.isWhitespace(buffer.charAt(length - 1)),False
+Csv-16f,1749,length != buffer.length(),length <= buffer.length(),True
+Csv-16f,1754,length != buffer.length(),true,False
+Csv-16f,1778,firstEol == null,firstEol != null,False
+Csv-16f,1787,ch == LF,ch <= LF,False
+Csv-16f,1794,ch == CR,ch < CR,False
+Csv-16f,1795,ch == CR,ch <= CR,False
+Csv-16f,1815,ch == LF || ch == CR,ch == LF != (ch == CR),True
+Csv-16f,1844,ch == LF || ch == CR,ch == LF != (ch == CR),True
+Csv-16f,1928,ch == delimiter || ch == escape || ch == quoteChar,(ch == delimiter || ch == escape) != (ch == quoteChar),False
+Csv-16f,1938,ch == commentStart,ch > commentStart,False
+Csv-16f,1940,ch == commentStart,false,False
+Csv-16f,1993,0,-1,False
+Csv-16f,1996,length == 0,length <= 0,False
+Csv-16f,2006,0,-1,False
+Csv-16f,2011,len > 0,len >= 0,True
+Csv-16f,2014,offset,0,False
+Csv-16f,2029,ch == LF,ch <= LF,False
+Csv-16f,2036,i > 0,i != 0,True
+Csv-16f,2037,i > 0,i < 0,False
+Csv-16f,2041,i > 0,false,False
+Csv-16f,2059,ch == CR,ch <= CR,False
+Csv-16f,2077,-1,1,False
+Csv-16f,2078,len == -1,len != -1,False
+Csv-16f,2080,len == -1,len <= -1,True
+Csv-16f,2081,len == -1,len > -1,False
+Csv-16f,2082,len == -1,len >= -1,True
+Csv-16f,2083,len == -1,false,False
+Csv-16f,2094,lastChar = END_OF_STREAM;,<NO-OP>,False
+Csv-16f,2111,lastChar == LF,lastChar <= LF,False
+Csv-16f,2116,lastChar == CR || lastChar == LF,lastChar == CR != (lastChar == LF),True
+Csv-16f,2125,lastChar == UNDEFINED,lastChar <= UNDEFINED,True
+Csv-16f,2130,lastChar == CR || lastChar == LF || lastChar == UNDEFINED,(lastChar == CR || lastChar == LF) != (lastChar == UNDEFINED),True
+Csv-16f,2139,lastChar == END_OF_STREAM,lastChar <= END_OF_STREAM,False
+Csv-16f,2162,lastChar = END_OF_STREAM;,<NO-OP>,False
+Csv-16f,2163,super.close();,<NO-OP>,False
+Gson-18f,8,dateType != Date.class && dateType != java.sql.Date.class,dateType != Date.class == (dateType != java.sql.Date.class),True
+Gson-18f,91,i <= 31,i != 31,True
+Gson-18f,200,context == nonempty,context >= nonempty,False
+Gson-18f,216,stackSize * 2,stackSize + 2,True
+Gson-18f,221,0,1,False
+Gson-18f,223,"System.arraycopy(stack, 0, newStack, 0, stackSize);",<NO-OP>,False
+Gson-18f,235,"""JsonWriter is closed.""","""""",False
+Gson-18f,265,"""JsonWriter is closed.""","""""",False
+Gson-18f,283,value == null,false,False
+Gson-18f,301,this,null,False
+Gson-18f,321,this,null,False
+Gson-18f,337,"""Numeric values must be finite, but was ""","""""",False
+Gson-18f,361,"string.equals(""-Infinity"") || string.equals(""Infinity"") || string.equals(""NaN"")","(string.equals(""-Infinity"") || string.equals(""Infinity"")) != string.equals(""NaN"")",True
+Gson-18f,425,size == 1 && stack[size - 1] != NONEMPTY_DOCUMENT,false,False
+Gson-18f,461,c < 128,c <= 128,False
+Gson-18f,488,last < i,last != i,True
+Gson-18f,589,0,1,True
+Gson-18f,760,peekStack == JsonScope.EMPTY_ARRAY,peekStack <= JsonScope.EMPTY_ARRAY,True
+Gson-18f,783,"""Unterminated array""","""""",False
+Gson-18f,816,peekStack == JsonScope.NONEMPTY_OBJECT,peekStack >= JsonScope.NONEMPTY_OBJECT,True
+Gson-18f,869,pos < limit || fillBuffer(1),pos < limit != fillBuffer(1),False
+Gson-18f,884,(pos < limit || fillBuffer(1)) && buffer[pos] == '>',(pos < limit || fillBuffer(1)) == (buffer[pos] == '>'),False
+Gson-18f,905,stackSize - 1,stackSize % 1,False
+Gson-18f,912,peekStack == JsonScope.NONEMPTY_DOCUMENT,peekStack <= JsonScope.NONEMPTY_DOCUMENT,True
+Gson-18f,936,peekStack == JsonScope.CLOSED,true,False
+Gson-18f,961,peekStack == JsonScope.EMPTY_ARRAY || peekStack == JsonScope.NONEMPTY_ARRAY,peekStack == JsonScope.EMPTY_ARRAY != (peekStack == JsonScope.NONEMPTY_ARRAY),True
+Gson-18f,1006,c == 't',c >= 't',False
+Gson-18f,1040,c == 'f' || c == 'F',c == 'f' != (c == 'F'),True
+Gson-18f,1063,c == 'N',true,False
+Gson-18f,1070,c == 'n' || c == 'N',true,False
+Gson-18f,1076,1,0,False
+Gson-18f,1130,c != keyword.charAt(i) && c != keywordUpper.charAt(i),c != keyword.charAt(i) == (c != keywordUpper.charAt(i)),True
+Gson-18f,1149,1,-1,False
+Gson-18f,1150,length + 1,length % 1,False
+Gson-18f,1179,0,-1,False
+Gson-18f,1209,i + 1,i / 1,False
+Gson-18f,1234,last == NUMBER_CHAR_EXP_E,last >= NUMBER_CHAR_EXP_E,False
+Gson-18f,1242,last == NUMBER_CHAR_EXP_E,last <= NUMBER_CHAR_EXP_E,False
+Gson-18f,1261,last == NUMBER_CHAR_FRACTION_DIGIT,last >= NUMBER_CHAR_FRACTION_DIGIT,False
+Gson-18f,1283,PEEKED_NONE,0,True
+Gson-18f,1298,c < '0' || c > '9',c < '0' != c > '9',True
+Gson-18f,1345,0,1,False
+Gson-18f,1380,value == MIN_INCOMPLETE_INTEGER,value >= MIN_INCOMPLETE_INTEGER,True
+Gson-18f,1453,value != Long.MIN_VALUE,value > Long.MIN_VALUE,True
+Gson-18f,1454,value != Long.MIN_VALUE,value >= Long.MIN_VALUE,True
+Gson-18f,1543,checkLenient();,<NO-OP>,False
+Gson-18f,1550,p == PEEKED_NONE,p <= PEEKED_NONE,True
+Gson-18f,1576,p == PEEKED_DOUBLE_QUOTED_NAME,p >= PEEKED_DOUBLE_QUOTED_NAME,False
+Gson-18f,1593,p == PEEKED_NONE,p <= PEEKED_NONE,False
+Gson-18f,1746,1,-1,False
+Gson-18f,1785,p == PEEKED_SINGLE_QUOTED,p <= PEEKED_SINGLE_QUOTED,True
+Gson-18f,1807,peeked = PEEKED_BUFFERED;,<NO-OP>,False
+Gson-18f,1828,stackSize - 1,stackSize % 1,False
+Gson-18f,1857,pathIndices[stackSize - 1]++;,<NO-OP>,False
+Gson-18f,1863,p == PEEKED_NUMBER,p >= PEEKED_NUMBER,False
+Gson-18f,1877,p == PEEKED_DOUBLE_QUOTED,p <= PEEKED_DOUBLE_QUOTED,False
+Gson-18f,1891,p == PEEKED_UNQUOTED,p <= PEEKED_UNQUOTED,False
+Gson-18f,1895,p == PEEKED_UNQUOTED,true,False
+Gson-18f,1913,p == PEEKED_SINGLE_QUOTED,p <= PEEKED_SINGLE_QUOTED,True
+Gson-18f,1955,p < l,p != l,True
+Gson-18f,2010,len + 1,len % 1,True
+Gson-18f,2012,len + 1,len - 1,True
+Gson-18f,2016,(len + 1) * 2,(len + 1) % 2,True
+Gson-18f,2018,(len + 1) * 2,(len + 1) - 2,True
+Gson-18f,2046,(p - start) * 2,(p - start) % 2,True
+Gson-18f,2047,(p - start) * 2,(p - start) + 2,True
+Gson-18f,2048,(p - start) * 2,(p - start) - 2,True
+Gson-18f,2049,(p - start) * 2,(p - start) / 2,True
+Gson-18f,2088,i < buffer.length,false,False
+Gson-18f,2092,i + 1,i % 1,False
+Gson-18f,2111,1,0,False
+Gson-18f,2149,readEscapeCharacter();,<NO-OP>,False
+Gson-18f,2162,1,0,False
+Gson-18f,2235,p == PEEKED_SINGLE_QUOTED,p >= PEEKED_SINGLE_QUOTED,False
+Gson-18f,2237,p == PEEKED_SINGLE_QUOTED,true,False
+Gson-18f,2251,p == PEEKED_SINGLE_QUOTED || p == PEEKED_DOUBLE_QUOTED,true,False
+Gson-18f,2256,p == PEEKED_UNQUOTED,p >= PEEKED_UNQUOTED,False
+Gson-18f,2276,p == PEEKED_SINGLE_QUOTED,p <= PEEKED_SINGLE_QUOTED,True
+Gson-18f,2279,p == PEEKED_SINGLE_QUOTED,false,False
+Gson-18f,2284,1,0,False
+Gson-18f,2311,stackSize - 1,stackSize / 1,False
+Gson-18f,2374,p == PEEKED_UNQUOTED_NAME,false,False
+Gson-18f,2472,stackSize == stack.length,stackSize >= stack.length,True
+Gson-18f,2502,"System.arraycopy(pathIndices, 0, newPathIndices, 0, stackSize);",<NO-OP>,False
+Gson-18f,2513,lineStart -= pos;,<NO-OP>,False
+Gson-18f,2557,lineStart == 0,lineStart <= 0,True
+Gson-18f,2563,lineNumber == 0 && lineStart == 0,lineNumber == 0 == (lineStart == 0),False
+Gson-18f,2570,0,-1,False
+Gson-18f,2581,lineNumber == 0 && lineStart == 0 && limit > 0,lineNumber == 0 && lineStart == 0,False
+Gson-18f,2591,buffer[0] == '\ufeff',buffer[0] >= '\ufeff',False
+Gson-18f,2598,lineNumber == 0 && lineStart == 0 && limit > 0 && buffer[0] == '\ufeff',buffer[0] == '\ufeff',False
+Gson-18f,2696,2,-2,False
+Gson-18f,2773,c == '\r',c < '\r',False
+Gson-18f,2784,pos + length,pos / length,False
+Gson-18f,2796,pos + length <= limit || fillBuffer(length),pos + length <= limit,False
+Gson-18f,2886,1,0,False
+Gson-18f,2887,1,-1,False
+Gson-18f,2889,pos == limit && !fillBuffer(1),pos == limit == !fillBuffer(1),False
+Gson-18f,2890,pos == limit && !fillBuffer(1),false,False
+Gson-18f,2915,pos + 4 > limit && !fillBuffer(4),pos + 4 > limit,False
+Gson-18f,2920,0,1,False
+Gson-18f,2961,c - '0',c % '0',True
+Gson-18f,3004,c >= 'A',true,False
+Gson-18f,3123,p == PEEKED_UNQUOTED_NAME,true,False
+Gson-18f,3132,isJsonObject(),true,False
+Gson-18f,3136,isJsonArray(),true,False
+Gson-18f,3175,(JsonPrimitive)members.get(memberName),null,False
+Gson-18f,3177,(JsonObject)members.get(memberName),null,False
+Gson-18f,3195,members.hashCode(),0,False
+Gson-18f,3253,elements.size() == 1,true,False
+Gson-18f,3256,return elements.get(0).getAsString();,<NO-OP>,False
+Gson-18f,3265,elements.size() == 1,true,False
+Gson-18f,3270,1,-1,False
+Gson-18f,3284,elements.size() == 1,elements.size() < 1,False
+Gson-18f,3322,elements.size() == 1,elements.size() > 1,False
+Gson-18f,3354,1,-1,False
+Gson-18f,3376,return elements.get(0).getAsBoolean();,<NO-OP>,False
+Gson-18f,3392,(o == this) || (o instanceof JsonArray && ((JsonArray)o).elements.equals(elements)),(o instanceof JsonArray && ((JsonArray)o).elements.equals(elements)),True
+Gson-18f,3394,elements.hashCode(),0,False
+Gson-18f,3429,isNumber(),false,True
+Gson-18f,3438,isNumber(),true,False
+Gson-18f,3454,value == null,false,False
+Gson-18f,3464,value >>> 32,value << 32,False
+Gson-18f,3473,value >>> 32,value >> 32,False
+Gson-18f,3475,value ^ (value >>> 32),value | (value >>> 32),False
+Gson-18f,3479,this == obj,false,True
+Gson-18f,3500,value == null,false,False
+Gson-18f,3502,other.value == null,other.value != null,False
+Gson-18f,3536,a == b,true,False
+Gson-18f,3581,number instanceof BigInteger || number instanceof Long || number instanceof Integer || number instanceof Short || number instanceof Byte,true,False
+Gson-18f,3588,this == other,false,True
+Gson-18f,3636,0,1,True
+Gson-18f,3643,comparator == NATURAL_ORDER,true,False
+Gson-18f,3645,comparableKey != null,false,True
+Gson-18f,3729,a != null,a == null,False
+Gson-18f,3733,a != null && a.equals(b),a != null == a.equals(b),False
+Gson-18f,3737,a != null && a.equals(b),true,False
+Gson-18f,3739,a == b || (a != null && a.equals(b)),a == b != (a != null && a.equals(b)),False
+Gson-18f,3766,left.height > right.height,left.height != right.height,False
+Gson-18f,3769,left.height > right.height,left.height == right.height,False
+Gson-18f,3770,left.height > right.height,left.height >= right.height,False
+Gson-18f,3785,0,1,False
+Gson-18f,3787,right = node.right;,<NO-OP>,False
+Gson-18f,3799,"Math.max(leftHeight, rightHeight) + 1","Math.max(leftHeight, rightHeight) - 1",False
+Gson-18f,3809,right != null,right == null,False
+Gson-18f,3811,right != null,true,True
+Gson-18f,3812,"replaceInParent(node, right);",<NO-OP>,False
+Gson-18f,3816,"rebalance(originalParent, false);",<NO-OP>,False
+Gson-18f,3851,left != null,false,False
+Gson-18f,3856,right != null,false,False
+Gson-18f,3868,delta == -2,delta <= -2,True
+Gson-18f,3893,rightDelta == -1,rightDelta <= -1,True
+Gson-18f,3904,rightDelta == 0,rightDelta >= 0,False
+Gson-18f,3942,delta == 2,delta >= 2,True
+Gson-18f,3955,0,1,False
+Gson-18f,3971,0,-1,False
+Gson-18f,3973,leftDelta == 0,leftDelta < 0,False
+Gson-18f,3977,leftDelta == 0,false,False
+Gson-18f,4023,node.height = leftHeight + 1;,<NO-OP>,False
+Gson-18f,4035,delta == -1,true,True
+Gson-18f,4057,"Math.max(leftHeight, rightHeight) + 1","Math.max(leftHeight, rightHeight) / 1",False
+Gson-18f,4061,break;,<NO-OP>,True
+Gson-18f,4105,pivot.left,null,False
+Gson-18f,4124,0,-1,True
+Gson-18f,4150,result != null,false,False
+Gson-18f,4172,other.getKey() == null,false,False
+Gson-18f,4232,modCount != expectedModCount,false,False
+Gson-18f,4250,"o instanceof Entry && findByEntry((Entry<?, ?>)o) != null",false,False
+Gson-18f,4255,false,true,False
+Gson-18f,4290,(field.getModifiers() & modifier) != 0,(field.getModifiers() & modifier) > 0,False
+Gson-18f,4383,dateStyle,0,False
+Gson-18f,4444,in.nextNull();,<NO-OP>,False
+Gson-18f,4461,in.nextNull();,<NO-OP>,False
+Gson-18f,4472,Double.isNaN(value) || Double.isInfinite(value),Double.isNaN(value) != Double.isInfinite(value),True
+Gson-18f,4494,return;,<NO-OP>,False
+Gson-18f,4544,true,false,False
+Gson-18f,4558,"typeTokenCache.put(type, candidate);",<NO-OP>,False
+Gson-18f,4630,jsonWriter.setSerializeNulls(serializeNulls);,<NO-OP>,False
+Gson-18f,4739,"isAssignableFrom(from, (ParameterizedType)type, new HashMap<String, Type>())",false,False
+Gson-18f,4752,classType = classType.getComponentType();,<NO-OP>,False
+Gson-18f,4758,from == null,true,False
+Gson-18f,4763,true,false,False
+Gson-18f,4768,ptype != null,false,False
+Gson-18f,4785,"typeVarMap.put(var.getName(), arg);",<NO-OP>,False
+Gson-18f,4831,to.equals(from) || (from instanceof TypeVariable && to.equals(typeMap.get(((TypeVariable<?>)from).getName()))),to.equals(from) && (from instanceof TypeVariable && to.equals(typeMap.get(((TypeVariable<?>)from).getName()))),False
+Gson-18f,4967,typeAdapter != null,true,False
+Gson-18f,4989,0,1,False
+Gson-18f,5061,"version != Excluder.IGNORE_VERSIONS && !isValidVersion(field.getAnnotation(Since.class), field.getAnnotation(Until.class))","!isValidVersion(field.getAnnotation(Since.class), field.getAnnotation(Until.class))",False
+Gson-18f,5099,return true;,<NO-OP>,False
+Gson-18f,5102,list.isEmpty(),false,False
+Gson-18f,5164,clazz.isMemberClass() && !isStatic(clazz),!isStatic(clazz),False
+Gson-18f,5224,DEFAULT_COMPLEX_MAP_KEYS,false,True
+Gson-18f,5234,this.complexMapKeySerialization = gson.complexMapKeySerialization;,<NO-OP>,False
+Gson-18f,5237,this.prettyPrinting = gson.prettyPrinting;,<NO-OP>,False
+Gson-18f,5239,this.serializeSpecialFloatingPointValues = gson.serializeSpecialFloatingPointValues;,<NO-OP>,False
+Gson-18f,5243,this.timeStyle = gson.timeStyle;,<NO-OP>,False
+Gson-18f,5292,this.dateStyle = style;,<NO-OP>,False
+Gson-18f,5293,this.datePattern = null;,<NO-OP>,False
+Gson-18f,5351,typeAdapter instanceof JsonDeserializer || typeAdapter instanceof JsonSerializer,typeAdapter instanceof JsonDeserializer && typeAdapter instanceof JsonSerializer,False
+Gson-18f,5355,typeAdapter instanceof JsonDeserializer || typeAdapter instanceof JsonSerializer,typeAdapter instanceof JsonSerializer,False
+Gson-18f,5394,dateStyle != DateFormat.DEFAULT,dateStyle <= DateFormat.DEFAULT,False
+Gson-18f,5398,dateStyle != DateFormat.DEFAULT,false,False
+Gson-18f,5403,timeStyle != DateFormat.DEFAULT,timeStyle > DateFormat.DEFAULT,False
+Gson-18f,5409,dateStyle != DateFormat.DEFAULT && timeStyle != DateFormat.DEFAULT,false,False
+Gson-18f,5410,dateStyle != DateFormat.DEFAULT && timeStyle != DateFormat.DEFAULT,dateStyle != DateFormat.DEFAULT,False
+Gson-18f,5415,"(TypeAdapter)new DefaultDateTypeAdapter(Timestamp.class, dateStyle, timeStyle)",null,False
+Gson-18f,5487,0,1,False
+Gson-18f,5494,type == null,true,False
+Gson-18f,5556,"Arrays.equals(wa.getUpperBounds(), wb.getUpperBounds()) && Arrays.equals(wa.getLowerBounds(), wb.getLowerBounds())","Arrays.equals(wa.getUpperBounds(), wb.getUpperBounds()) || Arrays.equals(wa.getLowerBounds(), wb.getLowerBounds())",False
+Gson-18f,5558,return false;,<NO-OP>,False
+Gson-18f,5561,va.getGenericDeclaration() == vb.getGenericDeclaration(),va.getGenericDeclaration() != vb.getGenericDeclaration(),False
+Gson-18f,5610,rawSupertype == toResolve,true,False
+Gson-18f,5616,toResolve,null,False
+Gson-18f,5674,newOwnerType != ownerType,newOwnerType == ownerType,False
+Gson-18f,5691,resolvedTypeArgument != args[t],true,False
+Gson-18f,5694,args = args.clone();,<NO-OP>,False
+Gson-18f,5705,1,-1,False
+Gson-18f,5801,this.typeArguments.length,0,False
+Gson-18f,5845,30 * (length + 1),30 % (length + 1),True
+Gson-18f,5847,30 * (length + 1),30 - (length + 1),False
+Gson-18f,5848,30 * (length + 1),30 / (length + 1),True
+Gson-18f,5868,"o instanceof GenericArrayType && $Gson$Types.equals(this, (GenericArrayType)o)","o instanceof GenericArrayType == $Gson$Types.equals(this, (GenericArrayType)o)",False
+Gson-18f,5884,lowerBounds.length <= 1,true,False
+Gson-18f,5930,lowerBound != null,false,False
+Gson-18f,5935,"other instanceof WildcardType && $Gson$Types.equals(this, (WildcardType)other)",other instanceof WildcardType,False
+Gson-18f,5944,31 + lowerBound.hashCode(),31 % lowerBound.hashCode(),False
+Gson-18f,5954,31 + upperBound.hashCode(),31 - upperBound.hashCode(),False
+Gson-18f,5961,"""? super ""","""""",False
+Gson-18f,5970,new BigDecimal(value).intValue(),0,False
+Gson-18f,5980,this == obj,true,False
+Gson-18f,6018,table.length / 4,table.length * 4,False
+Gson-18f,6024,(table.length / 2) + (table.length / 4),(table.length / 2) / (table.length / 4),False
+Gson-18f,6030,node != null,true,False
+Gson-18f,6078,comparator == NATURAL_ORDER,false,True
+Gson-18f,6146,size++ > threshold,size++ >= threshold,False
+Gson-18f,6162,"mine != null && equal(mine.value, entry.getValue())",false,False
+Gson-18f,6186,a == b || (a != null && a.equals(b)),a == b,False
+Gson-18f,6198,(h >>> 20) ^ (h >>> 12),(h >>> 20) | (h >>> 12),False
+Gson-18f,6200,7,0,False
+Gson-18f,6221,left != null,false,False
+Gson-18f,6226,left != null && right != null,left != null != (right != null),False
+Gson-18f,6240,false,true,False
+Gson-18f,6245,left != null,left == null,False
+Gson-18f,6261,node.right = null;,<NO-OP>,False
+Gson-18f,6281,"replaceInParent(node, null);",<NO-OP>,False
+Gson-18f,6286,findByObject(key),null,False
+Gson-18f,6319,unbalanced,null,False
+Gson-18f,6343,delta == -2,delta <= -2,True
+Gson-18f,6356,rightLeft != null,false,False
+Gson-18f,6368,rightDelta == -1,rightDelta <= -1,True
+Gson-18f,6370,rightDelta == -1,rightDelta >= -1,False
+Gson-18f,6375,rightDelta == 0,rightDelta != 0,False
+Gson-18f,6387,rightDelta == 0 && !insert,true,False
+Gson-18f,6399,rightDelta == 1,rightDelta != 1,False
+Gson-18f,6401,rightDelta == 1,rightDelta <= 1,True
+Gson-18f,6405,rightDelta == 1,true,True
+Gson-18f,6421,left.right,null,False
+Gson-18f,6465,leftDelta == 1 || (leftDelta == 0 && !insert),leftDelta == 1,False
+Gson-18f,6495,leftHeight + 1,leftHeight * 1,False
+Gson-18f,6528,1,-1,False
+Gson-18f,6531,"Math.max(leftHeight, rightHeight) + 1","Math.max(leftHeight, rightHeight) - 1",False
+Gson-18f,6548,root.parent = pivot;,<NO-OP>,False
+Gson-18f,6550,left != null,false,False
+Gson-18f,6557,0,1,False
+Gson-18f,6561,0) + 1,"Math.max(left != null ? left.height : 0, pivotLeft != null ? pivotLeft.height : 0) % 1",False
+Gson-18f,6564,0) + 1,"Math.max(left != null ? left.height : 0, pivotLeft != null ? pivotLeft.height : 0) / 1",False
+Gson-18f,6565,0) + 1;,<NO-OP>,False
+Gson-18f,6569,0,1,True
+Gson-18f,6591,right != null,false,False
+Gson-18f,6599,0,-1,True
+Gson-18f,6615,0) + 1,"Math.max(root.height, pivotLeft != null ? pivotLeft.height : 0) * 1",False
+Gson-18f,6630,this.parent = parent;,<NO-OP>,False
+Gson-18f,6635,this.height = 1;,<NO-OP>,False
+Gson-18f,6667,key == null,key != null,False
+Gson-18f,6672,value == null,value != null,False
+Gson-18f,6678,value.hashCode()),(key == null ? 0 : key.hashCode()) | (value == null ? 0 : value.hashCode()),False
+Gson-18f,6683,child != null,false,False
+Gson-18f,6701,table.length / 2,table.length + 2,False
+Gson-18f,6705,table.length / 4,table.length % 4,False
+Gson-18f,6726,i < oldCapacity,i != oldCapacity,True
+Gson-18f,6769,(node.hash & oldCapacity) == 0,(node.hash & oldCapacity) <= 0,True
+Gson-18f,6846,leavesSkipped = 0;,<NO-OP>,False
+Gson-18f,6904,(size & 1) == 0,(size & 1) <= 0,True
+Gson-18f,7001,leavesSkipped == 2,true,True
+Gson-18f,7034,expectedModCount = modCount;,<NO-OP>,False
+Gson-18f,7050,node == null,node != null,False
+Gson-18f,7055,true,false,False
+Gson-18f,7129,true,false,False
+Gson-18f,7140,newInstance.setAccessible(true);,<NO-OP>,False
+Gson-18f,7151,"""","""""",False
+Gson-18f,7160,type instanceof GenericArrayType || type instanceof Class && ((Class<?>)type).isArray(),type instanceof GenericArrayType != (type instanceof Class && ((Class<?>)type).isArray()),True
+Gson-18f,7401,"""Expected ""","""""",False
+Gson-18f,7424,token != JsonToken.STRING && token != JsonToken.NUMBER,token != JsonToken.STRING == (token != JsonToken.NUMBER),True
+Gson-18f,7431,""" but was ""","""""",False
+Gson-18f,7472,0,-1,False
+Gson-18f,7495,token != JsonToken.NUMBER && token != JsonToken.STRING,token != JsonToken.NUMBER == (token != JsonToken.STRING),True
+Gson-18f,7520,0,1,False
+Gson-18f,7521,0,-1,False
+Gson-18f,7522,stackSize > 0,stackSize != 0,True
+Gson-18f,7524,stackSize > 0,stackSize <= 0,False
+Gson-18f,7526,stackSize > 0,stackSize >= 0,False
+Gson-18f,7551,"""Expected ""","""""",False
+Gson-18f,7555,0,1,False
+Gson-18f,7565,1,-1,False
+Gson-18f,7567,stackSize - 1,stackSize * 1,False
+Gson-18f,7568,stackSize - 1,stackSize + 1,False
+Gson-18f,7580,token != JsonToken.NUMBER && token != JsonToken.STRING,token != JsonToken.NUMBER == (token != JsonToken.STRING),True
+Gson-18f,7668,stackSize == stack.length,false,False
+Gson-18f,7676,2,0,False
+Gson-18f,7697,"System.arraycopy(pathIndices, 0, newPathIndices, 0, stackSize);",<NO-OP>,False
+Gson-18f,7701,0,-1,False
+Gson-18f,7730,stack.isEmpty(),true,False
+Gson-18f,7764,stack.isEmpty() || pendingName != null,stack.isEmpty() != (pendingName != null),False
+Gson-18f,7807,stack.isEmpty() || pendingName != null,stack.isEmpty() && pendingName != null,False
+Gson-18f,7811,stack.isEmpty() || pendingName != null,pendingName != null,False
+Gson-18f,7824,put(new JsonPrimitive(value));,<NO-OP>,False
+Gson-18f,7848,this,null,False
+Gson-18f,7850,this,null,False
+Gson-18f,7854,return nullValue();,<NO-OP>,False
+Gson-18f,7895,keyType == Boolean.class,false,False
+Gson-18f,7957,keyElement.isJsonArray() || keyElement.isJsonObject(),keyElement.isJsonArray() != keyElement.isJsonObject(),True
+Gson-18f,8050,"!excluder.excludeClass(f.getType(), serialize) && !excluder.excludeField(f, serialize)","!excluder.excludeClass(f.getType(), serialize) == !excluder.excludeField(f, serialize)",False
+Gson-18f,8085,Object.class.isAssignableFrom(raw),true,False
+Gson-18f,8293,serializer != null,true,False
+Gson-18f,8296,deserializer != null,true,False
+Gson-18f,8341,runtimeType != type,true,False
+Gson-18f,8378,"""Attempted to deserialize a java.lang.Class. Forgot to register a type adapter?""","""""",False
+Gson-18f,8458,"""null""","""""",False
+Gson-18f,8459,value.toString());,<NO-OP>,False
+Gson-18f,8464,in.nextNull();,<NO-OP>,False
+Gson-18f,8555,in.nextNull();,<NO-OP>,False
+Gson-18f,8563,str.length() != 1,str.length() > 1,True
+Gson-18f,8655,in.nextNull();,<NO-OP>,False
+Gson-18f,8851,in.peek() == JsonToken.NULL,false,False
+Gson-18f,8854,return null;,<NO-OP>,False
+Gson-18f,8909,rawType == base || rawType == sub,rawType == base != (rawType == sub),False
+Gson-18f,8944,"format(date, millis, TIMEZONE_UTC)",null,False
+Gson-18f,8996,0,1,False
+Gson-18f,9012,60 * 1000,60 / 1000,False
+Gson-18f,9017,60,0,False
+Gson-18f,9023,60,0,False
+Gson-18f,9075,0,1,False
+Gson-18f,9078,0,-1,False
+Gson-18f,9085,date.length() <= offset,date.length() < offset,False
+Gson-18f,9093,!hasT && (date.length() <= offset),false,False
+Gson-18f,9144,c != '+',c > '+',False
+Gson-18f,9181,63,0,False
+Gson-18f,9183,seconds < 63,seconds != 63,False
+Gson-18f,9184,seconds < 63,seconds <= 63,False
+Gson-18f,9219,parseEndOffset - offset,parseEndOffset * offset,False
+Gson-18f,9242,date.length() <= offset,date.length() == offset,False
+Gson-18f,9274,timezoneIndicator == '+' || timezoneIndicator == '-',timezoneIndicator == '+' != (timezoneIndicator == '-'),True
+Gson-18f,9296,"00"".equals(timezoneOffset)","""+0000"".equals(timezoneOffset) != ""+00:00"".equals(timezoneOffset)",True
+Gson-18f,9300,"00"".equals(timezoneOffset)","""+0000"".equals(timezoneOffset)",False
+Gson-18f,9308,act.equals(timezoneId),true,False
+Gson-18f,9311,cleaned.equals(timezoneId),true,False
+Gson-18f,9353,""")""","""""",False
+Gson-18f,9358,offset < value.length(),offset != value.length(),False
+Gson-18f,9380,0,-1,False
+Gson-18f,9393,endIndex > value.length(),false,False
+Gson-18f,9410,beginIndex < 0 || endIndex > value.length() || beginIndex > endIndex,(beginIndex < 0 || endIndex > value.length()) && beginIndex > endIndex,False
+Gson-18f,9413,beginIndex < 0 || endIndex > value.length() || beginIndex > endIndex,beginIndex < 0 || endIndex > value.length(),True
+Gson-18f,9419,i < endIndex,i != endIndex,True
+Gson-18f,9435,digit < 0,false,False
+Gson-18f,9459,"""","""""",False
+Gson-18f,9494,c < '0',c > '0',False
+JxPath-22f,33,factory == null,factory != null,False
+JxPath-22f,43,factory == null && parentContext != null,parentContext != null,False
+JxPath-22f,104,parentContext != null,parentContext == null,False
+JxPath-22f,160,true,false,False
+JxPath-22f,184,new FileInputStream(f),null,False
+JxPath-22f,189,fis.close();,<NO-OP>,False
+JxPath-22f,192,factory != null,false,False
+JxPath-22f,205,cl == null,false,False
+JxPath-22f,219,factory != null,factory == null,False
+JxPath-22f,222,"factory != null && !"""".equals(factory)","factory != null != !"""".equals(factory)",False
+JxPath-22f,234,debug,false,False
+JxPath-22f,304,iter.hasNext(),false,False
+JxPath-22f,405,pointers.toString(),null,False
+JxPath-22f,406,readOnlyPointers = null;,<NO-OP>,False
+JxPath-22f,458,byNamespace = null;,<NO-OP>,False
+JxPath-22f,517,return message;,<NO-OP>,False
+JxPath-22f,625,i < jpds.length,i > jpds.length,False
+JxPath-22f,630,"buffer.append(""\n    "");",<NO-OP>,False
+JxPath-22f,652,message == null && exception != null,message == null,False
+JxPath-22f,829,xmlURL == null,false,False
+JxPath-22f,1255,pos != 0,false,False
+JxPath-22f,1283,rootContext == null,true,False
+JxPath-22f,1315,true,false,False
+JxPath-22f,1456,namespaceResolver == null && parent != null,namespaceResolver == null,False
+JxPath-22f,1527,index == WHOLE_COLLECTION || index >= 0 && index < getLength(),index == WHOLE_COLLECTION != (index >= 0 && index < getLength()),False
+JxPath-22f,1562,nodeName.getPrefix(),null,False
+JxPath-22f,1587,test instanceof NodeTypeTest && ((NodeTypeTest)test).getNodeType() == Compiler.NODE_TYPE_NODE,((NodeTypeTest)test).getNodeType() == Compiler.NODE_TYPE_NODE,False
+JxPath-22f,1613,1,0,False
+JxPath-22f,1702,parent != null,true,False
+JxPath-22f,1870,depth1 == 1,depth1 < 1,False
+JxPath-22f,1934,0,1,False
+JxPath-22f,1966,continue;,<NO-OP>,False
+JxPath-22f,2008,"""","""""",False
+JxPath-22f,2062,nodePointer,null,False
+JxPath-22f,2104,nodeFactoryArray = null;,<NO-OP>,False
+JxPath-22f,2169,return null;,<NO-OP>,True
+JxPath-22f,2179,!isLenient() && result == null,result == null,False
+JxPath-22f,2202,value != null && requiredType != null,requiredType != null,False
+JxPath-22f,2429,return parent.getNamespaceContextPointer();,<NO-OP>,False
+JxPath-22f,2484,prefix == null && parent != null,parent != null,False
+JxPath-22f,2499,0,-1,False
+JxPath-22f,2500,1,0,False
+JxPath-22f,2512,return new ValueIterator(((NodeSet)result).getPointers().iterator());,<NO-OP>,False
+JxPath-22f,2522,"""value""","""""",False
+JxPath-22f,2552,"""false""","""""",False
+JxPath-22f,2575,ptr == null,false,False
+JxPath-22f,2584,0.0,-1.0,False
+JxPath-22f,2601,doubleValue(ptr);,<NO-OP>,False
+JxPath-22f,2610,value != 0,value > 0,False
+JxPath-22f,2629,value != 0 && value != negZero && !Double.isNaN(value),(value != 0 && value != negZero) == !Double.isNaN(value),True
+JxPath-22f,3353,2147483647,-2147483647,False
+JxPath-22f,4389,jj_scan_token(82),false,False
+JxPath-22f,4404,jj_scan_token(NEQ),false,False
+JxPath-22f,4810,jj_scan_token(OR),false,False
+JxPath-22f,5575,++jj_gc > 100,++jj_gc != 100,False
+JxPath-22f,9593,12,-12,False
+JxPath-22f,9988,2L,-2L,False
+JxPath-22f,10816,83837761617920L,0L,False
+JxPath-22f,10939,281212992110031L,-281212992110031L,False
+JxPath-22f,10969,17732914942836896L,-17732914942836896L,False
+JxPath-22f,13151,-1,1,False
+JxPath-22f,13155,position < getCurrentPosition(),position != getCurrentPosition(),False
+JxPath-22f,13219,getCurrentPosition() < position,getCurrentPosition() == position,False
+JxPath-22f,13230,1,-1,False
+JxPath-22f,13256,iterator = null;,<NO-OP>,False
+JxPath-22f,13329,iterator = null;,<NO-OP>,False
+JxPath-22f,13365,position == 0,position <= 0,False
+JxPath-22f,13368,position == 0,false,False
+JxPath-22f,13399,nextNode(),false,False
+JxPath-22f,13575,position < getCurrentPosition(),false,False
+JxPath-22f,13579,getCurrentPosition() < position,getCurrentPosition() <= position,False
+JxPath-22f,13589,true,false,False
+JxPath-22f,13760,-1,1,False
+JxPath-22f,13784,return false;,<NO-OP>,False
+JxPath-22f,13799,parent != null,true,False
+JxPath-22f,13811,currentRootLocation == null || currentRootLocation.isRoot(),currentRootLocation == null,False
+JxPath-22f,13963,dynamicPropertyPointer == null && !setupDynamicPropertyPointer(),dynamicPropertyPointer == null == !setupDynamicPropertyPointer(),False
+JxPath-22f,13970,1,0,False
+JxPath-22f,13975,position < 1,position > 1,False
+JxPath-22f,14004,0,-1,False
+JxPath-22f,14035,this.position > position,this.position <= position,False
+JxPath-22f,14128,index == WHOLE_COLLECTION,false,False
+JxPath-22f,14221,getPropertyIndex() != other.getPropertyIndex() || !getPropertyName().equals(other.getPropertyName()),getPropertyIndex() != other.getPropertyIndex() != !getPropertyName().equals(other.getPropertyName()),False
+JxPath-22f,14228,false,true,False
+JxPath-22f,14308,false,true,False
+JxPath-22f,14476,0,-1,True
+JxPath-22f,14491,steps.length == currentStep + 1,steps.length < currentStep + 1,False
+JxPath-22f,14492,steps.length == currentStep + 1,steps.length <= currentStep + 1,False
+JxPath-22f,14735,quality > bestQuality,quality <= bestQuality,False
+JxPath-22f,14741,bestQuality = quality;,<NO-OP>,False
+JxPath-22f,14745,return bestMatch;,<NO-OP>,False
+JxPath-22f,15350,index == WHOLE_COLLECTION,false,False
+JxPath-22f,15361,false,true,False
+JxPath-22f,15424,functionCode,0,False
+JxPath-22f,15512,args.length == 0,args.length < 0,False
+JxPath-22f,15515,args.length == 0,args.length >= 0,False
+JxPath-22f,15620,old != 0,old <= 0,False
+JxPath-22f,15621,old != 0,old == 0,False
+JxPath-22f,15624,old != 0,false,False
+JxPath-22f,15785,getArgumentCount() < 2,getArgumentCount() <= 2,True
+JxPath-22f,16180,return new Double(v);,<NO-OP>,False
+JxPath-22f,16235,ct < min || ct > max,ct < min && ct > max,False
+JxPath-22f,16367,i < args.length,i != args.length,True
+JxPath-22f,16469,l instanceof String || r instanceof String,l instanceof String != r instanceof String,True
+JxPath-22f,16476,l = InfoSetUtil.stringValue(l);,<NO-OP>,False
+JxPath-22f,16541,"return findMatch((Iterator)left, (Iterator)right);",<NO-OP>,False
+JxPath-22f,16669,OR_PRECEDENCE,0,True
+JxPath-22f,16747,expression instanceof CoreOperation || expression instanceof ExpressionPath || expression instanceof LocationPath,(expression instanceof CoreOperation || expression instanceof ExpressionPath) != expression instanceof LocationPath,False
+JxPath-22f,16921,break;,<NO-OP>,False
+JxPath-22f,16939,nodeType != Compiler.NODE_TYPE_NODE,false,False
+JxPath-22f,16942,return false;,<NO-OP>,False
+JxPath-22f,17003,((NameAttributeTest)predicates[i]).getNameTestExpression().isContextDependent(),false,False
+JxPath-22f,17014,return false;,<NO-OP>,False
+JxPath-22f,17194,"""","""""",False
+JxPath-22f,17326,i < stepArray.length,i != stepArray.length,True
+JxPath-22f,17480,index != 0,index >= 0,False
+JxPath-22f,17623,0) + name.hashCode() + index,((actual ? System.identityHashCode(variables) : 0) + name.hashCode()) * index,False
+JxPath-22f,17675,index + 1,index / 1,False
+JxPath-22f,17692,getNode() == null || isCollection(),isCollection(),False
+JxPath-22f,17740,name == null,true,False
+JxPath-22f,17763,name != null && name.equals(other.name),name != null || name.equals(other.name),False
+JxPath-22f,17883,position - 1,position * 1,False
+JxPath-22f,17938,this.startIndex == NodePointer.WHOLE_COLLECTION,this.startIndex <= NodePointer.WHOLE_COLLECTION,True
+JxPath-22f,17984,targetReady,false,False
+JxPath-22f,17991,1,-1,False
+JxPath-22f,17993,setPosition(1),true,False
+JxPath-22f,18168,index <= position && position < index + length,position < index + length,False
+JxPath-22f,18307,0,1,False
+JxPath-22f,18383,i != startPropertyIndex,i < startPropertyIndex,True
+JxPath-22f,18487,(name == null && other.name != null) || (name != null && !name.equals(other.name)),false,False
+JxPath-22f,18650,index != 0,index > 0,False
+JxPath-22f,18675,index == WHOLE_COLLECTION,index <= WHOLE_COLLECTION,True
+JxPath-22f,18683,pd == null,false,False
+JxPath-22f,18727,value != null && ValueUtils.isCollection(value),value != null == ValueUtils.isCollection(value),False
+JxPath-22f,18735,pd == null,false,False
+JxPath-22f,18799,index == 0,index > 0,False
+JxPath-22f,18807,propertyName == null,true,False
+JxPath-22f,18966,collection.size() - 1,collection.size() + 1,False
+JxPath-22f,18971,collection.remove(0);,<NO-OP>,False
+JxPath-22f,18978,value == null,value != null,False
+JxPath-22f,18994,index != WHOLE_COLLECTION,true,False
+JxPath-22f,19056,object == this,false,True
+JxPath-22f,19067,index == other.index,index < other.index,False
+JxPath-22f,19104,index == WHOLE_COLLECTION,index < WHOLE_COLLECTION,False
+JxPath-22f,19118,test == null,false,False
+JxPath-22f,19126,((NodeTypeTest)test).getNodeType() == Compiler.NODE_TYPE_NODE,((NodeTypeTest)test).getNodeType() <= Compiler.NODE_TYPE_NODE,False
+JxPath-22f,19237,buffer.length() == 0 || buffer.charAt(buffer.length() - 1) != '/',buffer.length() == 0 == (buffer.charAt(buffer.length() - 1) != '/'),False
+JxPath-22f,19267,object == this,false,True
+JxPath-22f,19285,getImmediateParentPointer() == other.getImmediateParentPointer() && index == other.index,getImmediateParentPointer() == other.getImmediateParentPointer() == (index == other.index),False
+JxPath-22f,19289,getImmediateParentPointer() == other.getImmediateParentPointer() && index == other.index,true,False
+JxPath-22f,19290,getImmediateParentPointer() == other.getImmediateParentPointer() && index == other.index,getImmediateParentPointer() == other.getImmediateParentPointer() || index == other.index,False
+JxPath-22f,19323,"""/.""","""""",False
+JxPath-22f,19483,value != null && ValueUtils.isCollection(value),false,False
+JxPath-22f,19634,nodePrefix == null,false,False
+JxPath-22f,19648,"testLocalName.equals(""*"") || testLocalName.equals(nodeLocalName)","testLocalName.equals(""*"") != testLocalName.equals(nodeLocalName)",False
+JxPath-22f,19673,"return equalStrings(parent.getNamespaceURI(testPrefix), parent.getNamespaceURI(nodePrefix));",<NO-OP>,False
+JxPath-22f,19678,s1 != null,s1 == null,False
+JxPath-22f,19727,position == 0,position < 0,False
+JxPath-22f,19802,"value == null || (value.equals("""") && !attr.getSpecified())","value == null != (value.equals("""") && !attr.getSpecified())",False
+JxPath-22f,19805,"value == null || (value.equals("""") && !attr.getSpecified())",false,False
+JxPath-22f,19827,((NodeTypeTest)nodeTest).getNodeType() == Compiler.NODE_TYPE_NODE,true,False
+JxPath-22f,19852,buffer.length() == 0,buffer.length() < 0,False
+JxPath-22f,19876,buffer.length() == 0 || buffer.charAt(buffer.length() - 1) != '/',buffer.charAt(buffer.length() - 1) != '/',False
+JxPath-22f,19978,position == 0,position <= 0,False
+JxPath-22f,19986,setPosition(1),true,False
+JxPath-22f,20007,0,-1,False
+JxPath-22f,20008,index = 0;,<NO-OP>,False
+JxPath-22f,20086,this.position > position,this.position != position,True
+JxPath-22f,20512,node.getNodeType() == Node.TEXT_NODE || node.getNodeType() == Node.CDATA_SECTION_NODE,node.getNodeType() == Node.TEXT_NODE != (node.getNodeType() == Node.CDATA_SECTION_NODE),False
+JxPath-22f,20618,"""","""""",False
+JxPath-22f,20640,nsr != null,true,False
+JxPath-22f,20721,"buffer.append(""node()"");",<NO-OP>,False
+JxPath-22f,20739,break;,<NO-OP>,True
+JxPath-22f,20771,"equalStrings(getNamespaceURI(n), getNamespaceURI()) && equalStrings(node.getLocalName(), n.getLocalName())","equalStrings(node.getLocalName(), n.getLocalName())",False
+JxPath-22f,20800,n.getNodeType() == Node.TEXT_NODE,n.getNodeType() <= Node.TEXT_NODE,False
+JxPath-22f,20804,n.getNodeType() == Node.TEXT_NODE,true,False
+JxPath-22f,21070,t1 != Node.ATTRIBUTE_NODE,true,False
+JxPath-22f,21089,t1 == Node.ATTRIBUTE_NODE,t1 < Node.ATTRIBUTE_NODE,False
+JxPath-22f,21121,n == node1,n != node1,False
+JxPath-22f,21134,0,-1,False
+JxPath-22f,21160,this.namespaceURI = namespaceURI;,<NO-OP>,False
+JxPath-22f,21171,true,false,False
+JxPath-22f,21176,((NodeTypeTest)nodeTest).getNodeType() == Compiler.NODE_TYPE_NODE,((NodeTypeTest)nodeTest).getNodeType() != Compiler.NODE_TYPE_NODE,False
+JxPath-22f,21229,buffer.length() == 0 || buffer.charAt(buffer.length() - 1) != '/',buffer.charAt(buffer.length() - 1) != '/',False
+JxPath-22f,21314,iThis == iOther && dynaBean == other.dynaBean,dynaBean == other.dynaBean,False
+JxPath-22f,21324,o1 != null,o1 == null,False
+JxPath-22f,21338,o1 == o2 || o1 != null && o1.equals(o2),o1 == o2,False
+JxPath-22f,21393,propertyIndex >= 0 && propertyIndex < names.length,propertyIndex >= 0,False
+JxPath-22f,21423,break;,<NO-OP>,False
+JxPath-22f,21600,name != null,false,False
+JxPath-22f,21608,name != null && name.equals(other.name),name != null || name.equals(other.name),False
+JxPath-22f,21717,0,1,False
+JxPath-22f,21719,"Arrays.binarySearch(names, propertyName) < 0","Arrays.binarySearch(names, propertyName) != 0",False
+JxPath-22f,21791,0,1,False
+JxPath-22f,21792,0,-1,False
+JxPath-22f,22152,i < others.size(),i != others.size(),True
+JxPath-22f,22164,ns != null && !prefixes.contains(ns.getPrefix()),ns != null == !prefixes.contains(ns.getPrefix()),False
+JxPath-22f,22167,ns != null && !prefixes.contains(ns.getPrefix()),!prefixes.contains(ns.getPrefix()),False
+JxPath-22f,22201,index < 0,index == 0,False
+JxPath-22f,22364,return false;,<NO-OP>,False
+JxPath-22f,22383,index < children.size(),index != children.size(),True
+JxPath-22f,22559,list.get(i),null,False
+JxPath-22f,22617,0,-1,False
+JxPath-22f,22620,((Document)node).getContent().size() == 0,((Document)node).getContent().size() <= 0,True
+JxPath-22f,22675,result != null && trim,result != null == trim,False
+JxPath-22f,22686,"string != null && !string.equals("""")","string != null == !string.equals("""")",False
+JxPath-22f,22733,i < count,i >= count,False
+JxPath-22f,22842,prefix == null,true,False
+JxPath-22f,22929,"""","""""",False
+JxPath-22f,22950,namespaceUri == null,false,False
+JxPath-22f,23170,1,-1,False
+JxPath-22f,23221,"return new JDOMNodePointer(bean, locale);",<NO-OP>,False
+JxPath-22f,23222,"return new JDOMNodePointer(bean, locale);",<NO-OP>,False
+JxPath-22f,23324,handle.getSession(),null,False
+JxPath-22f,23378,handle.getServletRequest() == request,true,False
+JxPath-22f,23423,e = ((PageContext)pageContext).getAttributeNamesInScope(PageContext.REQUEST_SCOPE);,<NO-OP>,False
+JxPath-22f,23446,(ServletRequestAndContext)bean,null,False
+JxPath-22f,23503,return true;,<NO-OP>,False
+JxPath-22f,23570,useType == Boolean.class || useType == Character.class || useType == Byte.class || useType == Short.class,useType == Boolean.class || useType == Character.class || useType == Byte.class,False
+JxPath-22f,23609,useType == Boolean.class || useType == Character.class || useType == Byte.class || useType == Short.class || useType == Integer.class || useType == Long.class || useType == Float.class || useType == Double.class,false,False
+JxPath-22f,23634,i < length,i >= length,False
+JxPath-22f,23705,return object;,<NO-OP>,False
+JxPath-22f,23779,return unmodifiableCollection(collection);,<NO-OP>,False
+JxPath-22f,23848,toType == char.class,false,False
+JxPath-22f,23853,toType == byte.class,true,False
+JxPath-22f,23907,toType == Integer.class,false,False
+JxPath-22f,23965,initialValueType != null,false,False
+JxPath-22f,23992,return false;,<NO-OP>,False
+JxPath-22f,23999,type == List.class || type == Collection.class,type == List.class != (type == Collection.class),False
+JxPath-22f,24074,i < values.size(),true,False
+JxPath-22f,24119,"""boolean""","""""",False
+JxPath-22f,24140,abbreviationMap.containsKey(className),false,False
+JxPath-22f,24168,className.length() - 2,className.length() * 2,False
+JxPath-22f,24208,i < count,i != count,True
+JxPath-22f,24246,match != NO_MATCH,match > NO_MATCH,True
+JxPath-22f,24274,true,false,False
+JxPath-22f,24281,0,1,False
+JxPath-22f,24288,i < count,false,False
+JxPath-22f,24408,true,false,False
+JxPath-22f,24443,method != null,false,False
+JxPath-22f,24655,"""No indexed read method for property ""","""""",False
+JxPath-22f,24669,collection == null,false,False
+JxPath-22f,24673,return 0;,<NO-OP>,False
+JxPath-22f,24685,collection.getClass().isArray(),false,False
+JxPath-22f,24689,0,-1,False
+JxPath-22f,24772,index > 0,index <= 0,False
+JxPath-22f,24825,0,-1,False
+JxPath-22f,24833,it.hasNext(),false,False
+JxPath-22f,24836,it.next();,<NO-OP>,False
+JxPath-22f,24837,it.hasNext(),false,False
+JxPath-22f,24926,"""Cannot set value of an element of a ""","""""",False
+JxPath-22f,24943,method == null,false,False
+JxPath-22f,24987,index == 0,index < 0,False
+JxPath-22f,25040,i < interfaces.length,i != interfaces.length,True
+JxPath-22f,25077,"""JDOM parser error""","""""",False
+Lang-1f,97,"""Annotation method %s returned null""","""""",False
+Lang-1f,233,i < a1.length,i == a1.length,False
+Lang-1f,413,sepLen > 0,sepLen >= 0,True
+Lang-1f,536,detail,true,False
+Lang-1f,544,detail,true,False
+Lang-1f,548,detail,true,False
+Lang-1f,1162,i < array.length,i != array.length,True
+Lang-1f,1191,""", \'""","""""",False
+Lang-1f,1541,array.length == 0,array.length <= 0,True
+Lang-1f,1656,0,1,False
+Lang-1f,1727,endIndexExclusive > array.length,endIndexExclusive >= array.length,True
+Lang-1f,1778,0,1,False
+Lang-1f,2946,"""The Array must not be null""","""""",False
+Lang-1f,3456,"indexOf(array, valueToFind) != INDEX_NOT_FOUND","indexOf(array, valueToFind) > INDEX_NOT_FOUND",True
+Lang-1f,4154,array.length == 0,array.length <= 0,True
+Lang-1f,4161,0,1,False
+Lang-1f,5301,array1.length + array2.length,array1.length * array2.length,False
+Lang-1f,5685,isEmpty(array) || isEmpty(values),isEmpty(array) != isEmpty(values),False
+Lang-1f,5982,0,-1,True
+Lang-1f,6438,"""The Integer did not match either specified value""","""""",False
+Lang-1f,6463,value == trueValue,value <= trueValue,False
+Lang-1f,6580,ch0 == 'y' || ch0 == 'Y' || ch0 == 't',(ch0 == 'y' || ch0 == 'Y') != (ch0 == 't'),True
+Lang-1f,6680,ch1 == 'n',ch1 <= 'n',False
+Lang-1f,6753,(ch0 == 'n' || ch0 == 'N') && (ch1 == 'o' || ch1 == 'O'),(ch1 == 'o' || ch1 == 'O'),False
+Lang-1f,6827,ch2 == 's' || ch2 == 'S',ch2 == 's' != (ch2 == 'S'),True
+Lang-1f,6943,ch0 == 't' || ch0 == 'T',ch0 == 't' != (ch0 == 'T'),False
+Lang-1f,6987,ch2 == 'U',ch2 <= 'U',False
+Lang-1f,7094,(ch0 == 'f' || ch0 == 'F') && (ch1 == 'a' || ch1 == 'A'),(ch0 == 'f' || ch0 == 'F') || (ch1 == 'a' || ch1 == 'A'),False
+Lang-1f,7178,(ch0 == 'f' || ch0 == 'F') && (ch1 == 'a' || ch1 == 'A') && (ch2 == 'l' || ch2 == 'L') && (ch3 == 's' || ch3 == 'S') && (ch4 == 'e' || ch4 == 'E'),(ch0 == 'f' || ch0 == 'F') && (ch1 == 'a' || ch1 == 'A') && (ch2 == 'l' || ch2 == 'L') && (ch3 == 's' || ch3 == 'S') || (ch4 == 'e' || ch4 == 'E'),False
+Lang-1f,7733,0,-1,False
+Lang-1f,7780,start >= sz,start == sz,False
+Lang-1f,7941,pos < len,pos != len,True
+Lang-1f,7983,str.charAt(pos + 2) == '-',str.charAt(pos + 2) <= '-',False
+Lang-1f,8097,return true;,<NO-OP>,True
+Lang-1f,8143,0,-1,False
+Lang-1f,8279,"""The String must not be empty""","""""",False
+Lang-1f,8295,ch - 48,ch % 48,True
+Lang-1f,8623,String.valueOf(PACKAGE_SEPARATOR_CHAR),null,False
+Lang-1f,8742,-1,1,False
+Lang-1f,8818,className.charAt(0) == 'L',true,False
+Lang-1f,8835,className.charAt(0) == 'L' && className.charAt(className.length() - 1) == ';',className.charAt(0) == 'L',False
+Lang-1f,9348,""";""","""""",False
+Lang-1f,9960,srcPos + 2,srcPos / 2,False
+Lang-1f,10165,srcPos + 3,srcPos % 3,False
+Lang-1f,10269,srcPos + 3,srcPos % 3,False
+Lang-1f,10279,src.length > srcPos + 3,true,False
+Lang-1f,10359,(src.length == 0 && srcPos == 0) || 0 == nInts,(src.length == 0 && srcPos == 0),False
+Lang-1f,10369,32,0,False
+Lang-1f,10437,src.length == 0,src.length < 0,False
+Lang-1f,10465,0 == nShorts,0 >= nShorts,False
+Lang-1f,10584,(src.length == 0 && srcPos == 0) || 0 == nShorts,false,False
+Lang-1f,10785,srcPos == 0,srcPos < 0,False
+Lang-1f,10787,srcPos == 0,srcPos > 0,False
+Lang-1f,10810,(src.length == 0 && srcPos == 0) || 0 == nBytes,false,False
+Lang-1f,10829,(nBytes - 1) * 8 + dstPos,(nBytes - 1) * 8 - dstPos,False
+Lang-1f,10895,0,1,False
+Lang-1f,10920,(src.length == 0 && srcPos == 0) || 0 == nBytes,(src.length == 0 && srcPos == 0) != (0 == nBytes),False
+Lang-1f,11111,(nHex - 1) * 4 + dstPos >= 32,(nHex - 1) * 4 + dstPos == 32,False
+Lang-1f,11170,return dstInit;,<NO-OP>,False
+Lang-1f,11239,(out & ~mask) | bits,(out & ~mask) ^ bits,True
+Lang-1f,11333,0,-1,False
+Lang-1f,11465,(src.length == 0 && srcPos == 0) || 0 == nBools,(src.length == 0 && srcPos == 0) && 0 == nBools,False
+Lang-1f,11541,src.length == 0,src.length <= 0,True
+Lang-1f,11554,srcPos == 0,true,False
+Lang-1f,11587,nBools - 1 + dstPos,nBools - 1 - dstPos,False
+Lang-1f,11651,src.length == 0,false,False
+Lang-1f,11657,srcPos == 0,srcPos <= 0,False
+Lang-1f,11711,i < nBools,i != nBools,False
+Lang-1f,11740,1,-1,False
+Lang-1f,11833,nShorts - 1,nShorts % 1,False
+Lang-1f,11842,(nShorts - 1) * 16,(nShorts - 1) / 16,False
+Lang-1f,11861,i < nShorts,i != nShorts,False
+Lang-1f,12063,(nBytes - 1) * 8 + srcPos >= 32,(nBytes - 1) * 8 + srcPos > 32,False
+Lang-1f,12234,src >> shift,src >>> shift,True
+Lang-1f,12291,"""(nHexs-1)*4+srcPos is greather or equal to than 32""","""""",False
+Lang-1f,12538,nBools - 1 + srcPos >= 64,false,False
+Lang-1f,12901,0,1,False
+Lang-1f,13000,enumClass.getEnumConstants().length - 1,enumClass.getEnumConstants().length / 1,False
+Lang-1f,13018,value.ordinal() % Long.SIZE,value.ordinal() + Long.SIZE,False
+Lang-1f,13090,1.2F,-1.2F,False
+Lang-1f,13932,index < 0 || index >= length(),index < 0 != index >= length(),True
+Lang-1f,14067,startIndex < 0,false,False
+Lang-1f,14271,startIndex < 0,false,False
+Lang-1f,14357,ensureCapacity(len + strLen);,<NO-OP>,False
+Lang-1f,14387,startIndex < 0 || startIndex > str.length(),startIndex < 0,False
+Lang-1f,14471,0,-1,False
+Lang-1f,14726,this,null,False
+Lang-1f,14837,this,null,False
+Lang-1f,15046,len > 0,len != 0,True
+Lang-1f,15154,this,null,False
+Lang-1f,15210,validateIndex(index);,<NO-OP>,False
+Lang-1f,15255,len > 0,true,True
+Lang-1f,15360,0,-1,True
+Lang-1f,15499,0,1,False
+Lang-1f,15688,return this;,<NO-OP>,True
+Lang-1f,15858,len == 0,false,False
+Lang-1f,15895,0,-1,False
+Lang-1f,16436,str.charAt(j) != buffer[i + j],str.charAt(j) < buffer[i + j],False
+Lang-1f,16463,startIndex >= size,false,False
+Lang-1f,16466,1,-1,False
+Lang-1f,16476,0,-1,True
+Lang-1f,16536,this.size != other.size,this.size > other.size,False
+Lang-1f,16538,this.size != other.size,false,False
+Lang-1f,16547,size - 1,size * 1,False
+Lang-1f,16590,this.size != other.size,this.size < other.size,False
+Lang-1f,16716,chars == null,true,False
+Lang-1f,16810,off < 0 || len < 0 || off > b.length || (off + len) > b.length || (off + len) < 0,(off + len) < 0,False
+Lang-1f,17046,count == 0,false,False
+Lang-1f,17171,delimLen > 0,false,False
+Lang-1f,17209,0,1,False
+Lang-1f,17284,ignoredLen > 0,ignoredLen != 0,False
+Lang-1f,17606,chars != null,false,False
+Lang-1f,17654,!letters && !numbers,!letters != !numbers,False
+Lang-1f,17657,!letters && !numbers,!letters,False
+Lang-1f,17766,0,-1,False
+Lang-1f,17774,count++;,<NO-OP>,False
+Lang-1f,17844,ch <= 56319,ch < 56319,False
+Lang-1f,17880,false,true,False
+Lang-1f,18197,"""IOException while reading cloned object data""","""""",False
+Lang-1f,18273,"""\\\\""","""""",False
+Lang-1f,18442,pt < consumed,pt != consumed,False
+Lang-1f,18584,start != strLen,start < strLen,True
+Lang-1f,19076,0,-1,False
+Lang-1f,19233,j < searchLen,j != searchLen,True
+Lang-1f,19727,1,0,False
+Lang-1f,19843,0,-1,True
+Lang-1f,20050,len < 0 || pos > str.length(),len < 0 != pos > str.length(),False
+Lang-1f,20219,start != INDEX_NOT_FOUND,true,False
+Lang-1f,20343,return ArrayUtils.EMPTY_STRING_ARRAY;,<NO-OP>,False
+Lang-1f,20513,0,-1,False
+Lang-1f,20925,endIndex - startIndex,endIndex + startIndex,False
+Lang-1f,20940,noOfItems * 16,noOfItems + 16,True
+Lang-1f,21180,return null;,<NO-OP>,False
+Lang-1f,21187,endIndex - startIndex,endIndex + startIndex,False
+Lang-1f,21494,max < 0,max <= 0,True
+Lang-1f,21741,searchList[i] == null,searchList[i] != null,False
+Lang-1f,22001,end < 0,end <= 0,True
+Lang-1f,22152,last == CharUtils.LF,last >= CharUtils.LF,False
+Lang-1f,22390,return str;,<NO-OP>,False
+Lang-1f,22401,pads <= PAD_LIMIT,pads < PAD_LIMIT,False
+Lang-1f,22495,pads <= 0,pads < 0,False
+Lang-1f,22501,return str;,<NO-OP>,False
+Lang-1f,22527,"return leftPad(str, size, padStr.charAt(0));",<NO-OP>,True
+Lang-1f,22997,i < sz,i != sz,True
+Lang-1f,23011,cs.charAt(i) != ' ',cs.charAt(i) > ' ',False
+Lang-1f,23170,str.length() - offset < maxWidth - 3,str.length() - offset <= maxWidth - 3,False
+Lang-1f,23501,stringPos < shortestStrLen,stringPos != shortestStrLen,True
+Lang-1f,23586,smallestIndexOfDiff == INDEX_NOT_FOUND,smallestIndexOfDiff <= INDEX_NOT_FOUND,True
+Lang-1f,23654,n > m,false,False
+Lang-1f,23802,m <= threshold,true,False
+Lang-1f,23866,"Arrays.fill(d, Integer.MAX_VALUE);",<NO-OP>,False
+Lang-1f,24202,getSystemProperty(JAVA_IO_TMPDIR_KEY),null,False
+Lang-1f,24257,"""Mac OS X""","""""",False
+Lang-1f,24328,"""5.0""","""""",False
+Lang-1f,24341,"""6.2""","""""",False
+Lang-1f,24570,false,true,False
+Lang-1f,24711,"reflectionCompare(lhs, rhs, ReflectionToStringBuilder.toNoNullStringArray(excludeFields))",0,False
+Lang-1f,24790,f.getName().indexOf('$') == -1,true,False
+Lang-1f,24813,"!ArrayUtils.contains(excludeFields, f.getName()) && (f.getName().indexOf('$') == -1) && (useTransients || !Modifier.isTransient(f.getModifiers())) && (!Modifier.isStatic(f.getModifiers()))","(!ArrayUtils.contains(excludeFields, f.getName()) && (f.getName().indexOf('$') == -1) && (useTransients || !Modifier.isTransient(f.getModifiers()))) == (!Modifier.isStatic(f.getModifiers()))",False
+Lang-1f,24888,comparison != 0,comparison > 0,False
+Lang-1f,24954,comparison != 0,false,False
+Lang-1f,25621,0,1,False
+Lang-1f,25908,testClass.getSuperclass() != null && testClass != reflectUpToClass,testClass.getSuperclass() != null,False
+Lang-1f,26285,isEquals == false,false,False
+Lang-1f,26369,this.setEquals(false);,<NO-OP>,False
+Lang-1f,26568,lhs == null || rhs == null,rhs == null,False
+Lang-1f,26578,lhs.length != rhs.length,false,False
+Lang-1f,26776,37,0,False
+Lang-1f,26777,37,-37,False
+Lang-1f,26782,0,-1,False
+Lang-1f,26785,initialNonZeroOddNumber == 0,initialNonZeroOddNumber <= 0,False
+Lang-1f,26790,"""HashCodeBuilder requires a non zero initial value""","""""",False
+Lang-1f,26830,multiplierNonZeroOddNumber % 2 == 0,false,False
+Lang-1f,27080,field.getName().indexOf(ClassUtils.INNER_CLASS_SEPARATOR_CHAR) != -1,field.getName().indexOf(ClassUtils.INNER_CLASS_SEPARATOR_CHAR) > -1,True
+Lang-1f,27214,512,0,True
+Lang-1f,27272,this,null,False
+Lang-1f,27280,this,null,False
+Lang-1f,27284,this,null,False
+Lang-1f,27805,testObjectOutputStream = new ObjectOutputStream(new ByteArrayOutputStream());,<NO-OP>,False
+Lang-1f,27966,"""getCausedByException""","""""",False
+Lang-1f,28255,causeFrames.remove(causeFrameIndex);,<NO-OP>,False
+Lang-1f,29056,u == 0 || v == 0,u == 0 != (v == 0),False
+Lang-1f,29065,u == Integer.MIN_VALUE,u <= Integer.MIN_VALUE,True
+Lang-1f,29445,tmodd1 == 0,false,False
+Lang-1f,29836,"""The Array must not be null""","""""",False
+Lang-1f,29893,-1,1,False
+Lang-1f,29955,0,-1,False
+Lang-1f,30116,decPos > -1,decPos != -1,True
+Lang-1f,30185,""" is not a valid number.""","""""",False
+Lang-1f,30384,expPos > -1 && expPos < str.length() - 1,expPos > -1,False
+Lang-1f,30487,str == null,false,False
+Lang-1f,31162,chars[i] > '9',chars[i] >= '9',False
+Lang-1f,31242,1,-1,False
+Lang-1f,31268,i < sz || (i < sz + 1 && allowSigns && !foundDigit),i < sz != (i < sz + 1 && allowSigns && !foundDigit),False
+Lang-1f,31357,chars[i] == '+',true,False
+Lang-1f,31383,i < chars.length,i != chars.length,True
+Lang-1f,31481,chars[i] == 'd' || chars[i] == 'D' || chars[i] == 'f',(chars[i] == 'd' || chars[i] == 'D') != (chars[i] == 'f'),True
+Lang-1f,31485,chars[i] == 'd' || chars[i] == 'D' || chars[i] == 'f',chars[i] == 'd' || chars[i] == 'D',False
+Lang-1f,31553,!allowSigns && foundDigit,true,False
+Lang-1f,31630,value == anotherVal,value <= anotherVal,True
+Lang-1f,31910,parameterTypes = ArrayUtils.EMPTY_CLASS_ARRAY;,<NO-OP>,True
+Lang-1f,31924,args = ArrayUtils.EMPTY_OBJECT_ARRAY;,<NO-OP>,False
+Lang-1f,31928,args == null,false,False
+Lang-1f,31930,args = ArrayUtils.EMPTY_OBJECT_ARRAY;,<NO-OP>,False
+Lang-1f,31932,parameterTypes == null,false,True
+Lang-1f,32060,""" on ""","""""",False
+Lang-1f,32107,field == null,false,False
+Lang-1f,32227,m != null && Modifier.isPublic(m.getModifiers()),Modifier.isPublic(m.getModifiers()),False
+Lang-1f,32377,args = ArrayUtils.EMPTY_OBJECT_ARRAY;,<NO-OP>,False
+Lang-1f,32392,args == null,false,False
+Lang-1f,32491,"method = getAccessibleMethodFromInterfaceNest(interfaces[i], methodName, parameterTypes);",<NO-OP>,False
+Lang-1f,32495,break;,<NO-OP>,False
+Lang-1f,32580,toClass.equals(type),false,False
+Lang-1f,32606,false,true,False
+Lang-1f,32705,"isAssignable(bound, toGenericArrayType)",false,False
+Lang-1f,32765,return true;,<NO-OP>,True
+Lang-1f,32767,"isAssignable(bound, toTypeVariable, typeVarAssigns)",false,False
+Lang-1f,33017,return null;,<NO-OP>,False
+Lang-1f,33248,!error && pos.getIndex() < pattern.length(),true,False
+Lang-1f,33356,return pattern;,<NO-OP>,False
+Lang-1f,33418,len > 0,false,False
+Lang-1f,33497,pos.getIndex() - lastHold,pos.getIndex() + lastHold,False
+Lang-1f,33502,"appendQuotedString(pattern, pos, null, escapingOn);",<NO-OP>,False
+Lang-1f,35193,0,-1,False
+Lang-1f,35422,input.charAt(end) <= 'F',input.charAt(end) == 'F',False
+Lang-1f,35449,end != seqEnd,end < seqEnd,True
+Lang-1f,35843,"printer.format(millis, buf)",null,False
+Lang-1f,35844,"printer.format(date, buf)",null,False
+Lang-1f,35875,"""pattern must not be null""","""""",False
+Lang-1f,35924,pattern = previous;,<NO-OP>,False
+Lang-1f,35968,mRules.length,0,False
+Lang-1f,36304,c <= 'Z',true,False
+Lang-1f,36362,obj == null,false,False
+Lang-1f,36409,13,-13,False
+Lang-1f,36540,value / 10,value % 10,False
+Lang-1f,36548,buffer.append((char)(value / 10 + '0'));,<NO-OP>,False
+Lang-1f,36555,value % 10 + '0',value % 10 % '0',False
+Lang-1f,36557,value % 10 + '0',value % 10 - '0',False
+Lang-1f,36707,10,-10,True
+Lang-1f,36789,"mRule.appendTo(buffer, value);",<NO-OP>,False
+Lang-1f,36990,mTimeZone.equals(other.mTimeZone) && mStyle == other.mStyle && mLocale.equals(other.mLocale),(mTimeZone.equals(other.mTimeZone) && mStyle == other.mStyle) == mLocale.equals(other.mLocale),False
+Lang-1f,37354,sb.length() - 1,sb.length() * 1,False
+Lang-1f,37650,cal1.get(Calendar.MILLISECOND) == cal2.get(Calendar.MILLISECOND) && cal1.get(Calendar.SECOND) == cal2.get(Calendar.SECOND) && cal1.get(Calendar.MINUTE) == cal2.get(Calendar.MINUTE) && cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY),(cal1.get(Calendar.MILLISECOND) == cal2.get(Calendar.MILLISECOND) && cal1.get(Calendar.SECOND) == cal2.get(Calendar.SECOND) && cal1.get(Calendar.MINUTE) == cal2.get(Calendar.MINUTE)) == (cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY)),False
+Lang-1f,37791,"""The date must not be null""","""""",False
+Lang-1f,38119,val.get(Calendar.HOUR_OF_DAY) == 0,true,False
+Lang-1f,38484,0,1,False
+Lang-1f,38502,"truncate(cal1, field)",null,False
+Lang-1f,38548,0,1,False
+Lang-1f,38647,duration = tmp;,<NO-OP>,False
+Lang-1f,38972,months -= 1;,<NO-OP>,False
+Lang-1f,39114,i < sz,i != sz,True
+Lang-1f,39468,0,-1,False
+Math-1f,5255,2 * halfSampleSpan,2 / halfSampleSpan,False
+Math-1f,12797,0,-1,False
+Math-1f,13452,i - 1,i / 1,False
+Math-1f,13915,0,1,False
+Math-1f,13916,0,-1,False
+Math-1f,13923,0,-1,False
+Math-1f,14493,checkInterpolation();,<NO-OP>,False
+Math-1f,27448,w == otherK.w,w <= otherK.w,False
+Math-1f,28264,"FastMath.pow(numerator.doubleValue(), exponent) / FastMath.pow(denominator.doubleValue(), exponent)","FastMath.pow(numerator.doubleValue(), exponent) - FastMath.pow(denominator.doubleValue(), exponent)",False
+Math-1f,34155,p == fpdecimal.length(),p >= fpdecimal.length(),True
+Math-1f,34790,0,1,False
+Math-1f,35033,17 + (sign << 8) + (nans << 16) + exp,(17 + (sign << 8) + (nans << 16)) / exp,False
+Math-1f,38292,exp > mant.length || exp < -1,exp > mant.length,False
+Math-1f,40799,buf[i] >= '0' && buf[i] <= '9' && i < sp,true,False
+Math-1f,45306,1 - ninv <= d,1 - ninv == d,False
+Math-1f,47188,0,-1,True
+Math-1f,52913,value <= boundary2,value < boundary2,False
+Math-1f,55186,mutationRate < 0,mutationRate <= 0,False
+Math-1f,57153,1,-1,False
+Math-1f,60892,(v2.getY() < -0.9999999999) || (v2.getY() > 0.9999999999),(v2.getY() < -0.9999999999) != (v2.getY() > 0.9999999999),True
+Math-1f,63877,FastMath.abs(cross) <= (1.0E-6 * d1d2),FastMath.abs(cross) > (1.0E-6 * d1d2),False
+Math-1f,63991,0,1,False
+Math-1f,64768,122 * (76 * MathUtils.hash(x) + MathUtils.hash(y)),122 / (76 * MathUtils.hash(x) + MathUtils.hash(y)),False
+Math-1f,71432,0,-1,False
+Math-1f,71743,matrix.getColumnDimension() != nCols,matrix.getColumnDimension() == nCols,False
+Math-1f,74709,d.length < pos + size,d.length != pos + size,False
+Math-1f,79711,qStart,0,False
+Math-1f,80223,0,-1,False
+Math-1f,84660,0,-1,True
+Math-1f,94757,0,-1,False
+Math-1f,95361,0,1,False
+Math-1f,95420,"new SparseFieldVector<T>(this, n)",null,False
+Math-1f,96117,alpha * alpha + this.beta * this.beta,alpha * alpha * (this.beta * this.beta),False
+Math-1f,101469,theta <= 0.5,false,False
+Math-1f,107947,1,0,False
+Math-1f,111375,interpolator.nordsieck != null,true,False
+Math-1f,114742,j + j * j,j % (j * j),False
+Math-1f,118304,ipt * (ipt - 1) / 2 + jpt,ipt * (ipt - 1) / 2 - jpt,False
+Math-1f,119337,angt * dhd - dhs - dhs,(angt * dhd - dhs) / dhs,False
+Math-1f,119535,sth * (angt * dredg - sredg - HALF * sth * temp),sth / (angt * dredg - sredg - HALF * sth * temp),False
+Math-1f,119699,xbdi.getEntry(i) == ONE,xbdi.getEntry(i) > ONE,False
+Math-1f,123647,continue;,<NO-OP>,True
+Math-1f,123766,(xB - xC) * (fB - fA),(xB - xC) / (fB - fA),False
+Math-1f,127451,ZERO,0.0,True
+Math-1f,128370,denom < cauchy,denom <= cauchy,False
+Math-1f,129175,k < npt,false,False
+Math-1f,130552,i < n,i != n,True
+Math-1f,131158,trustRegionCenterInterpolationPointIndex == nfm,trustRegionCenterInterpolationPointIndex <= nfm,False
+Math-1f,132090,++nact;,<NO-OP>,False
+Math-1f,132145,angbd * temp > tempa,false,False
+Math-1f,132883,i < npt,i != npt,False
+Math-1f,133427,true,false,False
+Math-1f,134481,2 * iterations,2 / iterations,False
+Math-1f,135085,x[i] - repaired[i],x[i] / repaired[i],False
+Math-1f,136378,fX > fX2,fX != fX2,False
+Math-1f,137306,fW > fB,true,False
+Math-1f,137587,"vi = vi.add(new DerivativeStructure(point.length, 1, k, 0.0));",<NO-OP>,False
+Math-1f,137686,-1,1,False
+Math-1f,138387,currentYPrime * sine,currentYPrime % sine,False
+Math-1f,138397,omega * currentY,omega + currentY,False
+Math-1f,144808,pB * withinBinCum,pB % withinBinCum,False
+Math-1f,144833,p > 1.0,true,False
+Math-1f,144877,getUpperBounds(),null,False
+Math-1f,147910,rng.nextBoolean(),false,False
+Math-1f,148617,betaPhi * FastMath.tan(phi) - beta * FastMath.log(FastMath.PI / 2.0 * omega * cosPhi / betaPhi),betaPhi * FastMath.tan(phi) / (beta * FastMath.log(FastMath.PI / 2.0 * omega * cosPhi / betaPhi)),False
+Math-1f,148929,1,0,False
+Math-1f,152785,t * c,t - c,False
+Math-1f,155593,variance,0.0,False
+Math-1f,166547,0,-1,False
+Math-1f,169457,"endIndex < source.length() && source.substring(startIndex, endIndex).compareTo(sb.toString()) == 0","endIndex < source.length() == (source.substring(startIndex, endIndex).compareTo(sb.toString()) == 0)",False
+Math-1f,169611,v ^ (v >>> 32),v | (v >>> 32),False
+Math-1f,170374,return x;,<NO-OP>,False
+Math-1f,175763,idx + 1,idx / 1,False
+Math-1f,179934,sign | (scaledExponent << 23),sign ^ (scaledExponent << 23),True
+Math-1f,180671,0,-1,True
+Math-1f,181634,9.313225746154785E-10,-9.313225746154785E-10,False
