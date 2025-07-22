@@ -1,15 +1,23 @@
+from pathlib import Path
 import pandas as pd
-import os
 
-# Load the CSV from emiw_artifact folder (go up one level from labeled_data_points)
-csv_path = os.path.join("..", "emiw_artifact", "consolidated.csv")
-df = pd.read_csv(csv_path)
+# Define base paths
+script_dir = Path(__file__).parent
+input_csv_path = script_dir.parent / "emiw_artifact" / "consolidated.csv"
+output_csv_path = script_dir / "filtered_consolidated.csv"
+
+# Optional: print resolved paths for debugging
+print("Reading from:", input_csv_path.resolve())
+print("Writing to:", output_csv_path.resolve())
+
+# Load the CSV
+df = pd.read_csv(input_csv_path)
 
 # Filter out rows where EquiManualLabel is empty or NaN
 filtered_df = df[df['EquiManualLabel'].notna() & (df['EquiManualLabel'].astype(str).str.strip() != '')]
 
-# Save to new CSV in the current directory (labeled_data_points)
-filtered_df.to_csv("filtered_consolidated.csv", index=False)
+# Save filtered results
+filtered_df.to_csv(output_csv_path, index=False)
 
-# Display first few rows
+# Show first few rows
 print(filtered_df.head())

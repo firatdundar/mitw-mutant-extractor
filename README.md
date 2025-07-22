@@ -28,6 +28,21 @@ After downloading, **place the `emiw_artifact` folder in the same directory as t
 ### `labels_with_differences/`
 - Uses the resulting CSV from `labeled_data_points/` to reconstruct **original and mutated code parts** for each mutant.
 - The script accesses the relevant files inside the `emiw_artifact` structure and uses the information in each project's `mutants.log` file to identify the differences between original and mutant code. This includes line numbers and class-level metadata.
-- Output is a CSV file that includes the **Subject, Mutant ID (MID), OriginalCode, MutatedCode,** and the **EquiManualBin** label.
+- The output of this script is a CSV file named `original_mutant_differences_label.csv`, which contains detailed metadata for each manually labeled mutant. Each row in the file corresponds to a single mutant and includes the following columns:
+
+| Column Name       | Description |
+|-------------------|-------------|
+| `Subject`         | The project version the mutant belongs to (e.g., `Chart-1f`). |
+| `MID`             | Mutation ID — a unique identifier for the mutant within the subject. |
+| `MutationOperator`| The type of mutation applied (e.g., `ROR`, `LVR`, `COR`, `STD`). |
+| `OperatorBefore`  | The operator or expression in the original code before mutation. |
+| `OperatorAfter`   | The operator or expression after mutation. |
+| `Class`           | Fully qualified name of the Java class containing the mutation. |
+| `Method`          | The method signature where the mutation was applied. |
+| `Line`            | The line number in the source file where the mutation occurs. |
+| `CharOffset`      | The character offset (position in the file) of the mutation. |
+| `OriginalCode`    | The original source code part before the mutation. |
+| `MutatedCode`     | The mutated version of the code part. |
+| `EquiManualBin`   | Manual binary label indicating whether the mutant is **equivalent**: <br> `TRUE` = equivalent mutant (does not change program behavior), <br> `FALSE` = non-equivalent (changes behavior). |
 
 📌 _Note: Resulting CSVs from the scripts are already included in their corresponding folders._
