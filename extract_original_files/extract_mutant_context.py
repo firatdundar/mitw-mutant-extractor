@@ -92,7 +92,7 @@ for idx, row in tqdm(df.iterrows(), total=len(df)):
 # Save missing file logs
 if missing_files:
     missing_df = pd.DataFrame(missing_files)
-    missing_df.to_csv(PROJECT_ROOT / "missing_java_files.csv", index=False)
+    missing_df.to_csv(PROJECT_ROOT / "extract_original_files" / "missing_java_files.csv", index=False)
     print(f"⚠️ Missing files saved to: missing_java_files.csv")
 
 # Done
